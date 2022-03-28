@@ -1,0 +1,227 @@
+[2022-03-05 14:54:12] [General - Main] [INFO] Logging initialized in debug mode.
+[2022-03-05 14:54:12] [General - Main] [INFO] Starting PhotonVision version v2022.1.5 on Windows x64
+[2022-03-05 14:54:12] [General - Main] [INFO] Native libraries loaded.
+[2022-03-05 14:54:12] [General - ConfigManager] [INFO] Loading settings...
+[2022-03-05 14:54:12] [General - ConfigManager] [INFO] Hardware config does not exist! Loading defaults
+[2022-03-05 14:54:13] [Camera - CameraConfiguration] [DEBUG] Creating camera configuration for UsbCameraHP HD Webcam (AKA HP_HD_Webcam) at \\?\usb#vid_05c8&pid_0369&mi_00#6&342fd1bb&0&0000#{e5323777-f976-4f5b-9b55-b94699c46e44}\global
+[2022-03-05 14:54:13] [Camera - CameraConfiguration] [DEBUG] Creating camera configuration for UsbCameraUSB_Camera (AKA USB_Camera) at \\?\usb#vid_0458&pid_708c&mi_00#6&29a4ead7&0&0000#{e5323777-f976-4f5b-9b55-b94699c46e44}\global
+[2022-03-05 14:54:13] [General - NetworkTablesManager] [INFO] Starting NT Client
+[2022-03-05 14:54:13] [General - NetworkTablesManager] [ERROR] [NetworkTablesManager] Could not connect to the robot! Will retry in the background...
+[2022-03-05 14:54:13] [Camera - VisionSourceManager] [DEBUG] Matching 2 new cameras!
+[2022-03-05 14:54:13] [Camera - VisionSourceManager] [INFO] Adding local video device - "HP HD Webcam" at "\\?\usb#vid_05c8&pid_0369&mi_00#6&342fd1bb&0&0000#{e5323777-f976-4f5b-9b55-b94699c46e44}\global"
+[2022-03-05 14:54:13] [Camera - VisionSourceManager] [INFO] Adding local video device - "USB_Camera" at "\\?\usb#vid_0458&pid_708c&mi_00#6&29a4ead7&0&0000#{e5323777-f976-4f5b-9b55-b94699c46e44}\global"
+[2022-03-05 14:54:13] [Camera - VisionSourceManager] [DEBUG] Trying to match 2 unmatched configs...
+[2022-03-05 14:54:13] [Camera - VisionSourceManager] [DEBUG] Trying to find a match for loaded camera HP HD Webcam with path \\?\usb#vid_05c8&pid_0369&mi_00#6&342fd1bb&0&0000#{e5323777-f976-4f5b-9b55-b94699c46e44}\global
+[2022-03-05 14:54:13] [Camera - VisionSourceManager] [DEBUG] Matched the config for HP HD Webcam to a physical camera!
+[2022-03-05 14:54:13] [Camera - VisionSourceManager] [DEBUG] Trying to find a match for loaded camera USB_Camera with path \\?\usb#vid_0458&pid_708c&mi_00#6&29a4ead7&0&0000#{e5323777-f976-4f5b-9b55-b94699c46e44}\global
+[2022-03-05 14:54:13] [Camera - VisionSourceManager] [DEBUG] Matched the config for USB_Camera to a physical camera!
+[2022-03-05 14:54:13] [Camera - VisionSourceManager] [DEBUG] After matching loaded configs 0 cameras were unmatched.
+[2022-03-05 14:54:13] [Camera - VisionSourceManager] [DEBUG] Matched or created 2 camera configs!
+[2022-03-05 14:54:13] [WebServer - DataChangeService] [DEBUG] Added subscriber - Sources: DCS_WEBSOCKET, DCS_HTTP, DCS_NETWORKTABLES, DCS_VISIONMODULE, DCS_OTHER, Destinations: DCD_UI
+[2022-03-05 14:54:13] [WebServer - DataChangeService] [DEBUG] Added subscriber - Sources: DCS_WEBSOCKET, Destinations: DCD_GENSETTINGS
+[2022-03-05 14:54:13] [Camera - VisionSourceManager] [DEBUG] Matched config for camera "USBFrameProvider - opencv_HP_HD_Webcam" and loaded 1 pipelines
+[2022-03-05 14:54:13] [Camera - VisionSourceManager] [DEBUG] Matched config for camera "USBFrameProvider - opencv_USB_Camera" and loaded 1 pipelines
+[2022-03-05 14:54:13] [Camera - VisionSourceManager] [INFO] Adding 2 configs to VMM.
+[2022-03-05 14:54:13] [WebServer - DataChangeService] [DEBUG] Added subscriber - Sources: DCS_WEBSOCKET, DCS_HTTP, DCS_NETWORKTABLES, DCS_VISIONMODULE, DCS_OTHER, Destinations: DCD_ACTIVEMODULE, DCD_ACTIVEPIPELINESETTINGS, DCD_GENSETTINGS, DCD_UI, DCD_OTHER
+[2022-03-05 14:54:13] [VisionModule - VisionModule - HP_HD_Webcam] [INFO] Setting pipeline to 0
+[2022-03-05 14:54:13] [Camera - USBCameraSource - HP_HD_Webcam] [DEBUG] Setting camera exposure to 50
+[2022-03-05 14:54:14] [WebServer - SocketHandler] [INFO] New websocket connection from /0:0:0:0:0:0:0:1:50671
+[2022-03-05 14:54:14] [WebServer - SocketHandler] [INFO] New websocket connection from /192.168.0.26:50670
+[2022-03-05 14:54:14] [WebServer - DataChangeService] [DEBUG] Added subscriber - Sources: DCS_WEBSOCKET, DCS_HTTP, DCS_NETWORKTABLES, DCS_VISIONMODULE, DCS_OTHER, Destinations: DCD_ACTIVEMODULE, DCD_ACTIVEPIPELINESETTINGS, DCD_GENSETTINGS, DCD_UI, DCD_OTHER
+[2022-03-05 14:54:14] [VisionModule - VisionModule - USB_Camera] [INFO] Setting pipeline to 0
+[2022-03-05 14:54:14] [Camera - USBCameraSource - USB_Camera] [DEBUG] Setting camera exposure to 11
+[2022-03-05 14:54:14] [General - NetworkTablesManager] [ERROR] NT Connection has failed! Will retry in background.
+[2022-03-05 14:54:15] [General - NetworkTablesManager] [INFO] Searching for rios
+[2022-03-05 14:54:15] [General - NetworkTablesManager] [INFO] Searching for rios
+[2022-03-05 14:54:15] [General - NetworkTablesManager] [INFO] Trying 0.0.0.0
+[2022-03-05 14:54:15] [General - NetworkTablesManager] [INFO] Didn't match RIO IP
+[2022-03-05 14:54:15] [General - NetworkTablesManager] [INFO] Trying 192.168.56.1
+[2022-03-05 14:54:15] [General - NetworkTablesManager] [INFO] Trying 0.0.0.0
+[2022-03-05 14:54:15] [General - NetworkTablesManager] [INFO] Didn't match RIO IP
+[2022-03-05 14:54:15] [General - NetworkTablesManager] [INFO] Didn't match RIO IP
+[2022-03-05 14:54:15] [General - NetworkTablesManager] [INFO] Trying 0.0.0.0
+[2022-03-05 14:54:15] [General - NetworkTablesManager] [INFO] Didn't match RIO IP
+[2022-03-05 14:54:15] [General - NetworkTablesManager] [INFO] Trying 0.0.0.0
+[2022-03-05 14:54:15] [General - NetworkTablesManager] [INFO] Didn't match RIO IP
+[2022-03-05 14:54:15] [General - NetworkTablesManager] [INFO] Trying 0.0.0.0
+[2022-03-05 14:54:15] [General - NetworkTablesManager] [INFO] Trying 192.168.56.1
+[2022-03-05 14:54:15] [General - NetworkTablesManager] [INFO] Didn't match RIO IP
+[2022-03-05 14:54:15] [General - NetworkTablesManager] [INFO] Trying 0.0.0.0
+[2022-03-05 14:54:15] [General - NetworkTablesManager] [INFO] Didn't match RIO IP
+[2022-03-05 14:54:15] [General - NetworkTablesManager] [INFO] Didn't match RIO IP
+[2022-03-05 14:54:15] [General - NetworkTablesManager] [INFO] Trying 0.0.0.0
+[2022-03-05 14:54:15] [General - NetworkTablesManager] [INFO] Didn't match RIO IP
+[2022-03-05 14:54:15] [General - NetworkTablesManager] [INFO] Trying 0.0.0.0
+[2022-03-05 14:54:15] [General - NetworkTablesManager] [INFO] Didn't match RIO IP
+[2022-03-05 14:54:15] [General - NetworkTablesManager] [INFO] Trying 0.0.0.0
+[2022-03-05 14:54:15] [General - NetworkTablesManager] [INFO] Trying 0.0.0.0
+[2022-03-05 14:54:15] [General - NetworkTablesManager] [INFO] Didn't match RIO IP
+[2022-03-05 14:54:15] [General - NetworkTablesManager] [INFO] Trying 192.168.0.26
+[2022-03-05 14:54:15] [General - NetworkTablesManager] [INFO] Didn't match RIO IP
+[2022-03-05 14:54:15] [General - NetworkTablesManager] [INFO] Didn't match RIO IP
+[2022-03-05 14:54:15] [General - NetworkTablesManager] [INFO] Looking up roboRIO-686-FRC.local
+[2022-03-05 14:54:15] [General - NetworkTablesManager] [INFO] Trying 192.168.0.26
+[2022-03-05 14:54:15] [General - NetworkTablesManager] [INFO] Didn't match RIO IP
+[2022-03-05 14:54:15] [General - NetworkTablesManager] [INFO] Looking up roboRIO-686-FRC.local
+[2022-03-05 14:54:15] [General - ConfigManager] [DEBUG] Saving to disk...
+[2022-03-05 14:54:15] [General - ConfigManager] [INFO] Settings saved!
+[2022-03-05 14:54:16] [WebServer - Server] [DEBUG] Handled HTTP GET request from 192.168.0.19 in 7.0194ms
+[2022-03-05 14:54:16] [WebServer - SocketHandler] [INFO] New websocket connection from /192.168.0.20:51918
+[2022-03-05 14:54:16] [WebServer - SocketHandler] [INFO] New websocket connection from /192.168.0.19:50856
+[2022-03-05 14:54:17] [General - NetworkTablesManager] [INFO] Looking up roboRIO-686-FRC.lan
+[2022-03-05 14:54:17] [General - NetworkTablesManager] [INFO] Looking up roboRIO-686-FRC.lan
+[2022-03-05 14:54:17] [General - NetworkTablesManager] [INFO] Looking up roboRIO-686-FRC.frc-field.local
+[2022-03-05 14:54:17] [General - NetworkTablesManager] [INFO] Looking up roboRIO-686-FRC.frc-field.local
+[2022-03-05 14:54:17] [General - NetworkTablesManager] [INFO] Searching for rios
+[2022-03-05 14:54:17] [General - NetworkTablesManager] [INFO] Trying 0.0.0.0
+[2022-03-05 14:54:17] [General - NetworkTablesManager] [INFO] Didn't match RIO IP
+[2022-03-05 14:54:17] [General - NetworkTablesManager] [INFO] Trying 192.168.56.1
+[2022-03-05 14:54:17] [General - NetworkTablesManager] [INFO] Didn't match RIO IP
+[2022-03-05 14:54:17] [General - NetworkTablesManager] [INFO] Trying 0.0.0.0
+[2022-03-05 14:54:17] [General - NetworkTablesManager] [INFO] Didn't match RIO IP
+[2022-03-05 14:54:17] [General - NetworkTablesManager] [INFO] Trying 0.0.0.0
+[2022-03-05 14:54:17] [General - NetworkTablesManager] [INFO] Didn't match RIO IP
+[2022-03-05 14:54:17] [General - NetworkTablesManager] [INFO] Trying 0.0.0.0
+[2022-03-05 14:54:17] [General - NetworkTablesManager] [INFO] Didn't match RIO IP
+[2022-03-05 14:54:17] [General - NetworkTablesManager] [INFO] Trying 0.0.0.0
+[2022-03-05 14:54:17] [General - NetworkTablesManager] [INFO] Didn't match RIO IP
+[2022-03-05 14:54:17] [General - NetworkTablesManager] [INFO] Trying 192.168.0.26
+[2022-03-05 14:54:17] [General - NetworkTablesManager] [INFO] Didn't match RIO IP
+[2022-03-05 14:54:17] [General - NetworkTablesManager] [INFO] Looking up roboRIO-686-FRC.local
+[2022-03-05 14:54:17] [General - NetworkTablesManager] [INFO] Looking up roboRIO-686-FRC.lan
+[2022-03-05 14:54:17] [General - NetworkTablesManager] [INFO] Looking up roboRIO-686-FRC.frc-field.local
+[2022-03-05 14:54:17] [General - NetworkTablesManager] [INFO] Searching for rios
+[2022-03-05 14:54:17] [General - NetworkTablesManager] [INFO] Trying 0.0.0.0
+[2022-03-05 14:54:17] [General - NetworkTablesManager] [INFO] Didn't match RIO IP
+[2022-03-05 14:54:17] [General - NetworkTablesManager] [INFO] Trying 192.168.56.1
+[2022-03-05 14:54:17] [General - NetworkTablesManager] [INFO] Didn't match RIO IP
+[2022-03-05 14:54:17] [General - NetworkTablesManager] [INFO] Trying 0.0.0.0
+[2022-03-05 14:54:17] [General - NetworkTablesManager] [INFO] Didn't match RIO IP
+[2022-03-05 14:54:17] [General - NetworkTablesManager] [INFO] Trying 0.0.0.0
+[2022-03-05 14:54:17] [General - NetworkTablesManager] [INFO] Didn't match RIO IP
+[2022-03-05 14:54:17] [General - NetworkTablesManager] [INFO] Trying 0.0.0.0
+[2022-03-05 14:54:17] [General - NetworkTablesManager] [INFO] Didn't match RIO IP
+[2022-03-05 14:54:17] [General - NetworkTablesManager] [INFO] Searching for rios
+[2022-03-05 14:54:17] [General - NetworkTablesManager] [INFO] Trying 0.0.0.0
+[2022-03-05 14:54:17] [General - NetworkTablesManager] [INFO] Didn't match RIO IP
+[2022-03-05 14:54:17] [General - NetworkTablesManager] [INFO] Trying 192.168.0.26
+[2022-03-05 14:54:17] [General - NetworkTablesManager] [INFO] Didn't match RIO IP
+[2022-03-05 14:54:17] [General - NetworkTablesManager] [INFO] Looking up roboRIO-686-FRC.local
+[2022-03-05 14:54:17] [General - NetworkTablesManager] [INFO] Looking up roboRIO-686-FRC.lan
+[2022-03-05 14:54:17] [General - NetworkTablesManager] [INFO] Trying 0.0.0.0
+[2022-03-05 14:54:17] [General - NetworkTablesManager] [INFO] Didn't match RIO IP
+[2022-03-05 14:54:17] [General - NetworkTablesManager] [INFO] Trying 192.168.56.1
+[2022-03-05 14:54:17] [General - NetworkTablesManager] [INFO] Didn't match RIO IP
+[2022-03-05 14:54:17] [General - NetworkTablesManager] [INFO] Trying 0.0.0.0
+[2022-03-05 14:54:17] [General - NetworkTablesManager] [INFO] Didn't match RIO IP
+[2022-03-05 14:54:17] [General - NetworkTablesManager] [INFO] Trying 0.0.0.0
+[2022-03-05 14:54:17] [General - NetworkTablesManager] [INFO] Didn't match RIO IP
+[2022-03-05 14:54:17] [General - NetworkTablesManager] [INFO] Trying 0.0.0.0
+[2022-03-05 14:54:17] [General - NetworkTablesManager] [INFO] Looking up roboRIO-686-FRC.frc-field.local
+[2022-03-05 14:54:17] [General - NetworkTablesManager] [INFO] Didn't match RIO IP
+[2022-03-05 14:54:17] [General - NetworkTablesManager] [INFO] Trying 0.0.0.0
+[2022-03-05 14:54:17] [General - NetworkTablesManager] [INFO] Didn't match RIO IP
+[2022-03-05 14:54:17] [General - NetworkTablesManager] [INFO] Trying 192.168.0.26
+[2022-03-05 14:54:17] [General - NetworkTablesManager] [INFO] Didn't match RIO IP
+[2022-03-05 14:54:17] [General - NetworkTablesManager] [INFO] Looking up roboRIO-686-FRC.local
+[2022-03-05 14:54:17] [General - NetworkTablesManager] [INFO] Looking up roboRIO-686-FRC.lan
+[2022-03-05 14:54:17] [General - NetworkTablesManager] [INFO] Looking up roboRIO-686-FRC.frc-field.local
+[2022-03-05 14:54:24] [VisionModule - PipelineManager] [INFO] Adding new pipe of type Reflective at idx 0
+[2022-03-05 14:54:26] [General - ConfigManager] [DEBUG] Saving to disk...
+[2022-03-05 14:54:26] [General - ConfigManager] [INFO] Settings saved!
+[2022-03-05 14:54:33] [VisionModule - PipelineManager] [INFO] Adding new pipe of type ColoredShape at idx 0
+[2022-03-05 14:54:34] [General - ConfigManager] [DEBUG] Saving to disk...
+[2022-03-05 14:54:34] [General - ConfigManager] [INFO] Settings saved!
+[2022-03-05 14:54:37] [General - ConfigManager] [DEBUG] Saving to disk...
+[2022-03-05 14:54:37] [General - ConfigManager] [INFO] Settings saved!
+[2022-03-05 14:54:41] [Camera - USBCameraSource - USB_Camera] [DEBUG] Setting camera exposure to 41
+[2022-03-05 14:54:42] [Camera - USBCameraSource - USB_Camera] [DEBUG] Setting camera exposure to 41
+[2022-03-05 14:54:43] [General - ConfigManager] [DEBUG] Saving to disk...
+[2022-03-05 14:54:43] [General - ConfigManager] [INFO] Settings saved!
+[2022-03-05 14:54:44] [Camera - USBCameraSource - USB_Camera] [DEBUG] Setting camera exposure to 19
+[2022-03-05 14:54:44] [Camera - USBCameraSource - USB_Camera] [DEBUG] Setting camera exposure to 19
+[2022-03-05 14:54:45] [Camera - USBCameraSource - USB_Camera] [DEBUG] Setting camera exposure to 10
+[2022-03-05 14:54:46] [General - ConfigManager] [DEBUG] Saving to disk...
+[2022-03-05 14:54:46] [General - ConfigManager] [INFO] Settings saved!
+[2022-03-05 14:54:48] [Camera - USBCameraSource - USB_Camera] [DEBUG] Setting camera exposure to 6
+[2022-03-05 14:54:49] [General - ConfigManager] [DEBUG] Saving to disk...
+[2022-03-05 14:54:49] [General - ConfigManager] [INFO] Settings saved!
+[2022-03-05 14:55:04] [Camera - USBCameraSource - USB_Camera] [DEBUG] Setting camera exposure to 28
+[2022-03-05 14:55:06] [Camera - USBCameraSource - USB_Camera] [DEBUG] Setting camera exposure to 58
+[2022-03-05 14:55:07] [Camera - USBCameraSource - USB_Camera] [DEBUG] Setting camera exposure to 67
+[2022-03-05 14:55:08] [General - ConfigManager] [DEBUG] Saving to disk...
+[2022-03-05 14:55:09] [General - ConfigManager] [INFO] Settings saved!
+[2022-03-05 14:55:10] [WebServer - Server] [DEBUG] Handled HTTP GET request from 192.168.0.26 in 0.957ms
+[2022-03-05 14:55:11] [General - MetricsPublisher] [DEBUG] Ignoring metrics on non-Pi devices
+[2022-03-05 14:55:11] [WebServer - Server] [DEBUG] Handled HTTP POST request from 192.168.0.26 in 4.8575ms
+[2022-03-05 14:55:16] [WebServer - RequestHandler] [DEBUG] Processing uploaded settings zip photonvision-settings.zip
+[2022-03-05 14:55:16] [General - FileUtils] [ERROR] Exception deleting file "photonvision_config\logs\photonvision-2022-3-5_02-54-12.log"!
+[2022-03-05 14:55:16] [General - FileUtils] [ERROR] java.nio.file.FileSystemException: photonvision_config\logs\photonvision-2022-3-5_02-54-12.log: The process cannot access the file because it is being used by another process
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:275)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.delete(AbstractFileSystemProvider.java:105)
+	at java.base/java.nio.file.Files.delete(Files.java:1152)
+	at org.photonvision.common.util.file.FileUtils.deleteFile(FileUtils.java:64)
+	at org.photonvision.common.util.file.FileUtils.lambda$deleteDirectory$0(FileUtils.java:53)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.stream.SortedOps$RefSortingSink.end(SortedOps.java:395)
+	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:258)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:510)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at org.photonvision.common.util.file.FileUtils.deleteDirectory(FileUtils.java:53)
+	at org.photonvision.common.configuration.ConfigManager.saveUploadedSettingsZip(ConfigManager.java:72)
+	at org.photonvision.server.RequestHandler.onSettingUpload(RequestHandler.java:73)
+	at io.javalin.core.security.SecurityUtil.noopAccessManager(SecurityUtil.kt:20)
+	at io.javalin.http.JavalinServlet.addHandler$lambda-5(JavalinServlet.kt:113)
+	at io.javalin.http.JavalinServlet$service$tryBeforeAndEndpointHandlers$1.invoke(JavalinServlet.kt:44)
+	at io.javalin.http.JavalinServlet$service$tryBeforeAndEndpointHandlers$1.invoke(JavalinServlet.kt:39)
+	at io.javalin.http.JavalinServlet.service$tryWithExceptionMapper(JavalinServlet.kt:129)
+	at io.javalin.http.JavalinServlet.service$tryBeforeAndEndpointHandlers(JavalinServlet.kt:39)
+	at io.javalin.http.JavalinServlet.service(JavalinServlet.kt:87)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at io.javalin.jetty.JavalinJettyServlet.service(JavalinJettyServlet.kt:58)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:799)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:550)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:233)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1624)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:233)
+	at io.javalin.jetty.JettyServer$start$wsAndHttpHandler$1.doHandle(JettyServer.kt:52)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:188)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:501)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1594)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:186)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1349)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.StatisticsHandler.handle(StatisticsHandler.java:179)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.Server.handle(Server.java:516)
+	at org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:400)
+	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:645)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:392)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:277)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:105)
+	at org.eclipse.jetty.io.ChannelEndPoint$1.run(ChannelEndPoint.java:104)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:338)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:315)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:173)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:131)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:409)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:883)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1034)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+[2022-03-05 14:55:16] [General - ConfigManager] [INFO] Copied settings successfully!
+[2022-03-05 14:55:16] [WebServer - RequestHandler] [INFO] Settings uploaded, going down for restart.
+[2022-03-05 14:55:16] [WebServer - Server] [DEBUG] Handled HTTP POST request from 192.168.0.26 in 305.8758ms
+[2022-03-05 14:55:16] [General - HardwareManager] [INFO] Shutting down LEDs...
