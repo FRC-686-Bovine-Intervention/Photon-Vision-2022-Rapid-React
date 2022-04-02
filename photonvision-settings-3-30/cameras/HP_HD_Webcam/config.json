@@ -1,0 +1,14 @@
+{
+  "baseName" : "HP HD Webcam",
+  "uniqueName" : "HP_HD_Webcam",
+  "nickname" : "HP_HD_Webcam",
+  "FOV" : 70.0,
+  "path" : "\\\\?\\usb#vid_05c8&pid_0369&mi_00#6&342fd1bb&0&0000#{e5323777-f976-4f5b-9b55-b94699c46e44}\\global",
+  "cameraType" : "UsbCamera",
+  "currentPipelineIndex" : 0,
+  "camPitch" : {
+    "radians" : 0.0
+  },
+  "calibrations" : [ ],
+  "streamIndex" : 1
+}

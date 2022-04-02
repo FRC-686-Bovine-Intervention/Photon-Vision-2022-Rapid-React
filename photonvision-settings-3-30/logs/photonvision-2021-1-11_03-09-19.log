@@ -1,0 +1,593 @@
+[2021-01-11 15:09:19] [General - Main] [INFO] Logging initialized in debug mode.
+[2021-01-11 15:09:19] [General - ShellExec] [DEBUG] Executing "id -u"
+[2021-01-11 15:09:19] [General - ShellExec] [DEBUG] Got exit code 0
+[2021-01-11 15:09:19] [General - ShellExec] [DEBUG] Executing "cat /proc/device-tree/model"
+[2021-01-11 15:09:19] [General - ShellExec] [DEBUG] Got exit code 0
+[2021-01-11 15:09:20] [General - Main] [INFO] Starting PhotonVision version v2022.1.5 on Linux Raspbian (Pi COMPUTE_MODULE_3)
+[2021-01-11 15:09:21] [Camera - PicamJNI] [INFO] Successfully loaded libpicam shared object
+[2021-01-11 15:09:21] [General - Main] [INFO] Native libraries loaded.
+[2021-01-11 15:09:21] [General - ConfigManager] [INFO] Loading settings...
+[2021-01-11 15:09:21] [General - ConfigManager] [INFO] Hardware config does not exist! Loading defaults
+[2021-01-11 15:09:23] [Camera - CameraConfiguration] [DEBUG] Creating camera configuration for UsbCameraUSB_Camera (AKA USB_Camera) at \\?\usb#vid_0458&pid_708c&mi_00#6&29a4ead7&0&0000#{e5323777-f976-4f5b-9b55-b94699c46e44}\global
+[2021-01-11 15:09:23] [Camera - CameraConfiguration] [DEBUG] Creating camera configuration for ZeroCopyPicammmal service 16.1 (AKA mmal_service_16.1) at /dev/video0
+[2021-01-11 15:09:23] [Camera - CameraConfiguration] [DEBUG] Creating camera configuration for UsbCameraHP HD Webcam (AKA HP_HD_Webcam) at \\?\usb#vid_05c8&pid_0369&mi_00#6&342fd1bb&0&0000#{e5323777-f976-4f5b-9b55-b94699c46e44}\global
+[2021-01-11 15:09:24] [General - NetworkManager] [INFO] Setting STATIC with team team 686
+[2021-01-11 15:09:24] [General - ShellExec] [DEBUG] Executing "cat /etc/hostname | tr -d " \t\n\r""
+[2021-01-11 15:09:24] [General - ShellExec] [DEBUG] Got exit code 0
+[2021-01-11 15:09:24] [General - ShellExec] [DEBUG] Executing "echo photonvision > /etc/hostname"
+[2021-01-11 15:09:24] [General - ShellExec] [DEBUG] Got exit code 0
+[2021-01-11 15:09:24] [General - ShellExec] [DEBUG] Executing "hostnamectl set-hostname photonvision"
+[2021-01-11 15:09:24] [General - ShellExec] [DEBUG] Got exit code 0
+[2021-01-11 15:09:24] [General - ShellExec] [DEBUG] Executing "sed -i "s/127.0.1.1.*gloworm/127.0.1.1\tphotonvision/g" /etc/hosts"
+[2021-01-11 15:09:24] [General - ShellExec] [DEBUG] Got exit code 0
+[2021-01-11 15:09:24] [General - ShellExec] [DEBUG] Executing "sudo service avahi-daemon restart"
+[2021-01-11 15:09:24] [General - ShellExec] [DEBUG] Got exit code 0
+[2021-01-11 15:09:24] [General - NetworkManager] [INFO] Set hostname to photonvision
+[2021-01-11 15:09:24] [General - ShellExec] [DEBUG] Executing "ip addr add 10.6.86.11/8 dev eth0"
+[2021-01-11 15:09:24] [General - ShellExec] [DEBUG] Got exit code 2
+[2021-01-11 15:09:24] [General - NetworkTablesManager] [INFO] Starting NT Client
+[2021-01-11 15:09:24] [General - NetworkTablesManager] [ERROR] [NetworkTablesManager] Could not connect to the robot! Will retry in the background...
+[2021-01-11 15:09:24] [Camera - VisionSourceManager] [DEBUG] Matching 1 new cameras!
+[2021-01-11 15:09:24] [Camera - VisionSourceManager] [INFO] Adding local video device - "mmal service 16.1" at "/dev/video0"
+[2021-01-11 15:09:24] [Camera - VisionSourceManager] [DEBUG] Trying to match 2 unmatched configs...
+[2021-01-11 15:09:24] [Camera - VisionSourceManager] [DEBUG] Trying to find a match for loaded camera HP HD Webcam with path \\?\usb#vid_05c8&pid_0369&mi_00#6&342fd1bb&0&0000#{e5323777-f976-4f5b-9b55-b94699c46e44}\global
+[2021-01-11 15:09:24] [Camera - VisionSourceManager] [DEBUG] Failed to match by path and name, falling back to name-only match
+[2021-01-11 15:09:24] [Camera - VisionSourceManager] [DEBUG] Trying to find a match for loaded camera USB_Camera with path \\?\usb#vid_0458&pid_708c&mi_00#6&29a4ead7&0&0000#{e5323777-f976-4f5b-9b55-b94699c46e44}\global
+[2021-01-11 15:09:24] [Camera - VisionSourceManager] [DEBUG] Failed to match by path and name, falling back to name-only match
+[2021-01-11 15:09:24] [Camera - VisionSourceManager] [DEBUG] Trying to find a match for loaded camera mmal service 16.1 with path /dev/video0
+[2021-01-11 15:09:24] [Camera - VisionSourceManager] [DEBUG] Matched the config for mmal service 16.1 to a physical camera!
+[2021-01-11 15:09:24] [Camera - VisionSourceManager] [DEBUG] After matching loaded configs 0 cameras were unmatched.
+[2021-01-11 15:09:24] [Camera - VisionSourceManager] [DEBUG] Matched or created 1 camera configs!
+[2021-01-11 15:09:24] [Camera - VisionSourceManager] [WARN] After matching, 2 configs remained unmatched. Is your camera disconnected?
+[2021-01-11 15:09:24] [Camera - VisionSourceManager] [WARN] Unloaded configs: HP_HD_WebcamUSB_Camera
+[2021-01-11 15:09:24] [Camera - VisionSourceManager] [DEBUG] Matched config for camera "AcceleratedPicamFrameProvider" and loaded 2 pipelines
+[2021-01-11 15:09:24] [Camera - VisionSourceManager] [INFO] Adding 1 configs to VMM.
+[2021-01-11 15:09:25] [WebServer - DataChangeService] [DEBUG] Added subscriber - Sources: DCS_WEBSOCKET, DCS_HTTP, DCS_NETWORKTABLES, DCS_VISIONMODULE, DCS_OTHER, Destinations: DCD_ACTIVEMODULE, DCD_ACTIVEPIPELINESETTINGS, DCD_GENSETTINGS, DCD_UI, DCD_OTHER
+[2021-01-11 15:09:25] [VisionModule - VisionModule - mmal_service_16.1] [INFO] Setting pipeline to 1
+[2021-01-11 15:09:25] [WebServer - DataChangeService] [DEBUG] Added subscriber - Sources: DCS_WEBSOCKET, DCS_HTTP, DCS_NETWORKTABLES, DCS_VISIONMODULE, DCS_OTHER, Destinations: DCD_UI
+[2021-01-11 15:09:25] [WebServer - DataChangeService] [DEBUG] Added subscriber - Sources: DCS_WEBSOCKET, Destinations: DCD_GENSETTINGS
+[2021-01-11 15:09:25] [General - NetworkTablesManager] [ERROR] NT Connection has failed! Will retry in background.
+[2021-01-11 15:09:27] [General - NetworkTablesManager] [INFO] Searching for rios
+[2021-01-11 15:09:27] [General - NetworkTablesManager] [INFO] Trying 127.0.0.1
+[2021-01-11 15:09:27] [General - NetworkTablesManager] [INFO] Didn't match RIO IP
+[2021-01-11 15:09:27] [General - NetworkTablesManager] [INFO] Trying 10.6.86.11
+[2021-01-11 15:09:27] [General - NetworkTablesManager] [INFO] Maybe found 10.6.86.11
+[2021-01-11 15:09:27] [General - NetworkTablesManager] [INFO] Looking up 10.6.86.2
+[2021-01-11 15:09:27] [General - NetworkTablesManager] [INFO] Pinging 10.6.86.2
+[2021-01-11 15:09:27] [General - ConfigManager] [DEBUG] Saving to disk...
+[2021-01-11 15:09:27] [General - NetworkTablesManager] [INFO] Unable to reach 10.6.86.2
+[2021-01-11 15:09:27] [General - NetworkTablesManager] [INFO] Trying 169.254.249.120
+[2021-01-11 15:09:27] [General - NetworkTablesManager] [INFO] Didn't match RIO IP
+[2021-01-11 15:09:27] [General - NetworkTablesManager] [INFO] Looking up roboRIO-686-FRC.local
+[2021-01-11 15:09:28] [General - ConfigManager] [INFO] Settings saved!
+[2021-01-11 15:09:28] [WebServer - SocketHandler] [INFO] New websocket connection from /10.6.86.99:54908
+[2021-01-11 15:09:29] [General - NetworkTablesManager] [INFO] Searching for rios
+[2021-01-11 15:09:29] [General - NetworkTablesManager] [INFO] Trying 127.0.0.1
+[2021-01-11 15:09:29] [General - NetworkTablesManager] [INFO] Didn't match RIO IP
+[2021-01-11 15:09:29] [General - NetworkTablesManager] [INFO] Trying 10.6.86.11
+[2021-01-11 15:09:29] [General - NetworkTablesManager] [INFO] Maybe found 10.6.86.11
+[2021-01-11 15:09:29] [General - NetworkTablesManager] [INFO] Looking up 10.6.86.2
+[2021-01-11 15:09:29] [General - NetworkTablesManager] [INFO] Pinging 10.6.86.2
+[2021-01-11 15:09:30] [General - NetworkTablesManager] [INFO] Unable to reach 10.6.86.2
+[2021-01-11 15:09:30] [General - NetworkTablesManager] [INFO] Trying 169.254.249.120
+[2021-01-11 15:09:30] [General - NetworkTablesManager] [INFO] Didn't match RIO IP
+[2021-01-11 15:09:30] [General - NetworkTablesManager] [INFO] Looking up roboRIO-686-FRC.local
+[2021-01-11 15:09:42] [General - NetworkTablesManager] [INFO] Looking up roboRIO-686-FRC.lan
+[2021-01-11 15:09:42] [General - NetworkTablesManager] [INFO] Looking up roboRIO-686-FRC.lan
+[2021-01-11 15:09:43] [VisionModule - VisionModule - mmal_service_16.1] [INFO] Setting pipeline to 0
+[2021-01-11 15:09:45] [General - ConfigManager] [DEBUG] Saving to disk...
+[2021-01-11 15:09:45] [General - ConfigManager] [INFO] Settings saved!
+[2021-01-11 15:09:49] [VisionModule - VisionModuleChangeSubscriber - mmal_service_16.1] [DEBUG] Skipping pipeline change, index 0 already active
+[2021-01-11 15:09:52] [General - NetworkTablesManager] [INFO] Looking up roboRIO-686-FRC.frc-field.local
+[2021-01-11 15:09:52] [General - NetworkTablesManager] [INFO] Looking up roboRIO-686-FRC.frc-field.local
+[2021-01-11 15:09:53] [VisionModule - VisionModule - mmal_service_16.1] [INFO] Setting pipeline to 1
+[2021-01-11 15:09:54] [General - ConfigManager] [DEBUG] Saving to disk...
+[2021-01-11 15:09:55] [General - ConfigManager] [INFO] Settings saved!
+[2021-01-11 15:10:40] [WebServer - SocketHandler] [INFO] Duplicating pipe@index1 for camera 0
+[2021-01-11 15:10:40] [VisionModule - PipelineManager] [DEBUG] Duplicating pipe 1 to Red Cargo (1)
+[2021-01-11 15:10:40] [VisionModule - VisionModule - mmal_service_16.1] [INFO] Setting pipeline to 2
+[2021-01-11 15:10:42] [General - ConfigManager] [DEBUG] Saving to disk...
+[2021-01-11 15:10:42] [General - ConfigManager] [INFO] Settings saved!
+[2021-01-11 15:10:46] [General - ConfigManager] [DEBUG] Saving to disk...
+[2021-01-11 15:10:47] [General - ConfigManager] [INFO] Settings saved!
+[2021-01-11 15:10:50] [General - ConfigManager] [DEBUG] Saving to disk...
+[2021-01-11 15:10:50] [General - ConfigManager] [INFO] Settings saved!
+[2021-01-11 15:10:56] [General - ConfigManager] [DEBUG] Saving to disk...
+[2021-01-11 15:10:57] [General - ConfigManager] [INFO] Settings saved!
+[2021-01-11 15:10:59] [General - ConfigManager] [DEBUG] Saving to disk...
+[2021-01-11 15:10:59] [General - ConfigManager] [INFO] Settings saved!
+[2021-01-11 15:11:06] [General - ConfigManager] [DEBUG] Saving to disk...
+[2021-01-11 15:11:07] [General - ConfigManager] [INFO] Settings saved!
+[2021-01-11 15:11:14] [General - ConfigManager] [DEBUG] Saving to disk...
+[2021-01-11 15:11:14] [General - ConfigManager] [INFO] Settings saved!
+[2021-01-11 15:11:16] [General - ConfigManager] [DEBUG] Saving to disk...
+[2021-01-11 15:11:17] [General - ConfigManager] [INFO] Settings saved!
+[2021-01-11 15:11:19] [General - ConfigManager] [DEBUG] Saving to disk...
+[2021-01-11 15:11:20] [General - ConfigManager] [INFO] Settings saved!
+[2021-01-11 15:11:22] [General - ConfigManager] [DEBUG] Saving to disk...
+[2021-01-11 15:11:22] [General - ConfigManager] [INFO] Settings saved!
+[2021-01-11 15:11:28] [General - ConfigManager] [DEBUG] Saving to disk...
+[2021-01-11 15:11:28] [General - ConfigManager] [INFO] Settings saved!
+[2021-01-11 15:11:42] [General - MetricsPublisher] [DEBUG] Publishing Metrics...
+[2021-01-11 15:11:42] [General - ShellExec] [DEBUG] Executing "sed 's/.\{3\}$/.&/' <<< cat /sys/class/thermal/thermal_zone0/temp"
+[2021-01-11 15:11:42] [General - ShellExec] [DEBUG] Got exit code 0
+[2021-01-11 15:11:42] [General - ShellExec] [DEBUG] Executing "top -bn1 | grep "Cpu(s)" | sed "s/.*, *\([0-9.]*\)%* id.*/\1/" | awk '{print 100 - $1}'"
+[2021-01-11 15:11:42] [General - ShellExec] [DEBUG] Got exit code 0
+[2021-01-11 15:11:42] [General - ShellExec] [DEBUG] Executing "vcgencmd get_mem arm | grep -Eo '[0-9]+'"
+[2021-01-11 15:11:42] [General - ShellExec] [DEBUG] Got exit code 0
+[2021-01-11 15:11:42] [General - ShellExec] [DEBUG] Executing "vcgencmd get_mem gpu | grep -Eo '[0-9]+'"
+[2021-01-11 15:11:42] [General - ShellExec] [DEBUG] Got exit code 0
+[2021-01-11 15:11:42] [General - ShellExec] [DEBUG] Executing "free --mega | awk -v i=2 -v j=3 'FNR == i {print $j}'"
+[2021-01-11 15:11:42] [General - ConfigManager] [DEBUG] Saving to disk...
+[2021-01-11 15:11:42] [General - ShellExec] [DEBUG] Got exit code 0
+[2021-01-11 15:11:42] [General - ShellExec] [DEBUG] Executing "vcgencmd get_mem malloc | grep -Eo '[0-9]+'"
+[2021-01-11 15:11:42] [General - ShellExec] [DEBUG] Got exit code 0
+[2021-01-11 15:11:42] [General - ShellExec] [DEBUG] Executing "df ./ --output=pcent | tail -n +2"
+[2021-01-11 15:11:42] [General - ShellExec] [DEBUG] Got exit code 0
+[2021-01-11 15:11:43] [General - ConfigManager] [INFO] Settings saved!
+[2021-01-11 15:11:43] [WebServer - Server] [DEBUG] Handled HTTP POST request from 10.6.86.99 in 585.33075ms
+[2021-01-11 15:12:12] [WebServer - Server] [DEBUG] Handled HTTP GET request from 10.6.86.99 in 36.855ms
+[2021-01-11 15:12:12] [WebServer - Server] [DEBUG] Handled HTTP GET request from 10.6.86.99 in 42.148228ms
+[2021-01-11 15:12:12] [WebServer - Server] [DEBUG] Handled HTTP GET request from 10.6.86.99 in 28.268072ms
+[2021-01-11 15:12:12] [WebServer - Server] [DEBUG] Handled HTTP GET request from 10.6.86.99 in 4.324323ms
+[2021-01-11 15:12:12] [WebServer - SocketHandler] [INFO] Closing websocket connection from /10.6.86.99:54908 for reason: Connection closed by client
+[2021-01-11 15:12:12] [WebServer - SocketHandler] [INFO] All websocket connections are closed. Setting inputShouldShow to false.
+[2021-01-11 15:12:12] [WebServer - Server] [DEBUG] Handled HTTP GET request from 10.6.86.99 in 8.342291ms
+[2021-01-11 15:12:12] [WebServer - Server] [DEBUG] Handled HTTP GET request from 10.6.86.99 in 5.939115ms
+[2021-01-11 15:12:12] [WebServer - Server] [DEBUG] Handled HTTP GET request from 10.6.86.99 in 9.403542ms
+[2021-01-11 15:12:12] [WebServer - Server] [DEBUG] Handled HTTP GET request from 10.6.86.99 in 5.518437ms
+[2021-01-11 15:12:12] [WebServer - Server] [DEBUG] Handled HTTP GET request from 10.6.86.99 in 12.223178ms
+[2021-01-11 15:12:12] [WebServer - SocketHandler] [INFO] New websocket connection from /10.6.86.99:60599
+[2021-01-11 15:12:12] [WebServer - Server] [DEBUG] Handled HTTP GET request from 10.6.86.99 in 3.927969ms
+[2021-01-11 15:12:12] [WebServer - Server] [DEBUG] Handled HTTP GET request from 10.6.86.99 in 4.391302ms
+[2021-01-11 15:12:12] [WebServer - Server] [DEBUG] Handled HTTP GET request from 10.6.86.99 in 3.951146ms
+[2021-01-11 15:12:12] [WebServer - Server] [DEBUG] Handled HTTP GET request from 10.6.86.99 in 11.646562ms
+[2021-01-11 15:12:12] [WebServer - Server] [DEBUG] Handled HTTP GET request from 10.6.86.99 in 7.131823ms
+[2021-01-11 15:12:13] [General - ConfigManager] [DEBUG] Saving to disk...
+[2021-01-11 15:12:13] [General - NetworkTablesManager] [INFO] Searching for rios
+[2021-01-11 15:12:13] [General - NetworkTablesManager] [INFO] Trying 127.0.0.1
+[2021-01-11 15:12:13] [General - NetworkTablesManager] [INFO] Didn't match RIO IP
+[2021-01-11 15:12:13] [General - NetworkTablesManager] [INFO] Trying 10.6.86.11
+[2021-01-11 15:12:13] [General - NetworkTablesManager] [INFO] Maybe found 10.6.86.11
+[2021-01-11 15:12:13] [General - NetworkTablesManager] [INFO] Looking up 10.6.86.2
+[2021-01-11 15:12:13] [General - NetworkTablesManager] [INFO] Pinging 10.6.86.2
+[2021-01-11 15:12:13] [General - ConfigManager] [INFO] Settings saved!
+[2021-01-11 15:12:13] [General - NetworkTablesManager] [INFO] Unable to reach 10.6.86.2
+[2021-01-11 15:12:13] [General - NetworkTablesManager] [INFO] Trying 169.254.249.120
+[2021-01-11 15:12:13] [General - NetworkTablesManager] [INFO] Didn't match RIO IP
+[2021-01-11 15:12:13] [General - NetworkTablesManager] [INFO] Looking up roboRIO-686-FRC.local
+[2021-01-11 15:12:20] [General - ConfigManager] [DEBUG] Saving to disk...
+[2021-01-11 15:12:21] [General - ConfigManager] [INFO] Settings saved!
+[2021-01-11 15:12:22] [General - ConfigManager] [DEBUG] Saving to disk...
+[2021-01-11 15:12:22] [General - ConfigManager] [INFO] Settings saved!
+[2021-01-11 15:12:28] [General - NetworkTablesManager] [INFO] Looking up roboRIO-686-FRC.lan
+[2021-01-11 15:12:38] [General - NetworkTablesManager] [INFO] Looking up roboRIO-686-FRC.frc-field.local
+[2021-01-11 15:13:05] [VisionModule - VisionModule - mmal_service_16.1] [INFO] Setting pipeline to -1
+[2021-01-11 15:13:05] [VisionModule - VisionRunner - AcceleratedPicamFrameProvider] [ERROR] Exception on loop 4686
+[2021-01-11 15:13:06] [General - ConfigManager] [DEBUG] Saving to disk...
+[2021-01-11 15:13:06] [General - ConfigManager] [INFO] Settings saved!
+[2021-01-11 15:13:08] [VisionModule - VisionModule - mmal_service_16.1] [INFO] Setting pipeline to 0
+[2021-01-11 15:13:10] [General - ConfigManager] [DEBUG] Saving to disk...
+[2021-01-11 15:13:11] [General - ConfigManager] [INFO] Settings saved!
+[2021-01-11 15:13:12] [WebServer - Server] [DEBUG] Handled HTTP GET request from 10.6.86.99 in 8.425104ms
+[2021-01-11 15:13:12] [WebServer - Server] [DEBUG] Handled HTTP GET request from 10.6.86.99 in 4.044427ms
+[2021-01-11 15:13:12] [WebServer - Server] [DEBUG] Handled HTTP GET request from 10.6.86.99 in 4.973229ms
+[2021-01-11 15:13:12] [WebServer - Server] [DEBUG] Handled HTTP GET request from 10.6.86.99 in 3.327136ms
+[2021-01-11 15:13:12] [WebServer - Server] [DEBUG] Handled HTTP GET request from 10.6.86.99 in 8.532552ms
+[2021-01-11 15:13:12] [WebServer - Server] [DEBUG] Handled HTTP GET request from 10.6.86.99 in 15.843542ms
+[2021-01-11 15:13:12] [WebServer - Server] [DEBUG] Handled HTTP GET request from 10.6.86.99 in 15.222084ms
+[2021-01-11 15:13:12] [WebServer - Server] [DEBUG] Handled HTTP GET request from 10.6.86.99 in 4.345833ms
+[2021-01-11 15:13:12] [WebServer - Server] [DEBUG] Handled HTTP GET request from 10.6.86.99 in 12.866094ms
+[2021-01-11 15:13:12] [WebServer - Server] [DEBUG] Handled HTTP GET request from 10.6.86.99 in 5.371823ms
+[2021-01-11 15:13:12] [WebServer - Server] [DEBUG] Handled HTTP GET request from 10.6.86.99 in 24.940208ms
+[2021-01-11 15:13:12] [WebServer - Server] [DEBUG] Handled HTTP GET request from 10.6.86.99 in 12.672656ms
+[2021-01-11 15:13:12] [WebServer - Server] [DEBUG] Handled HTTP GET request from 10.6.86.99 in 31.096876ms
+[2021-01-11 15:13:12] [WebServer - Server] [DEBUG] Handled HTTP GET request from 10.6.86.99 in 239.02145ms
+[2021-01-11 15:13:12] [WebServer - Server] [DEBUG] Handled HTTP GET request from 10.6.86.99 in 306.8078ms
+[2021-01-11 15:13:13] [General - MetricsPublisher] [DEBUG] Publishing Metrics...
+[2021-01-11 15:13:13] [General - ShellExec] [DEBUG] Executing "sed 's/.\{3\}$/.&/' <<< cat /sys/class/thermal/thermal_zone0/temp"
+[2021-01-11 15:13:13] [General - ShellExec] [DEBUG] Got exit code 0
+[2021-01-11 15:13:13] [General - ShellExec] [DEBUG] Executing "top -bn1 | grep "Cpu(s)" | sed "s/.*, *\([0-9.]*\)%* id.*/\1/" | awk '{print 100 - $1}'"
+[2021-01-11 15:13:13] [General - ShellExec] [DEBUG] Got exit code 0
+[2021-01-11 15:13:13] [General - ShellExec] [DEBUG] Executing "free --mega | awk -v i=2 -v j=3 'FNR == i {print $j}'"
+[2021-01-11 15:13:13] [General - ShellExec] [DEBUG] Got exit code 0
+[2021-01-11 15:13:13] [General - ShellExec] [DEBUG] Executing "vcgencmd get_mem malloc | grep -Eo '[0-9]+'"
+[2021-01-11 15:13:13] [General - ShellExec] [DEBUG] Got exit code 0
+[2021-01-11 15:13:13] [General - ShellExec] [DEBUG] Executing "df ./ --output=pcent | tail -n +2"
+[2021-01-11 15:13:13] [General - ShellExec] [DEBUG] Got exit code 0
+[2021-01-11 15:13:13] [WebServer - Server] [DEBUG] Handled HTTP POST request from 10.6.86.99 in 327.8351ms
+[2021-01-11 15:13:13] [VisionModule - VisionModuleChangeSubscriber - mmal_service_16.1] [DEBUG] Skipping pipeline change, index 0 already active
+[2021-01-11 15:13:14] [VisionModule - VisionModule - mmal_service_16.1] [INFO] Setting pipeline to -1
+[2021-01-11 15:13:15] [VisionModule - VisionModule - mmal_service_16.1] [INFO] Setting pipeline to 0
+[2021-01-11 15:13:17] [General - ConfigManager] [DEBUG] Saving to disk...
+[2021-01-11 15:13:17] [General - ConfigManager] [INFO] Settings saved!
+[2021-01-11 15:13:22] [VisionModule - VisionModule - mmal_service_16.1] [INFO] Setting pipeline to -1
+[2021-01-11 15:13:23] [General - ConfigManager] [DEBUG] Saving to disk...
+[2021-01-11 15:13:23] [General - ConfigManager] [INFO] Settings saved!
+[2021-01-11 15:13:26] [VisionModule - VisionModule - mmal_service_16.1] [INFO] Setting pipeline to 0
+[2021-01-11 15:13:27] [General - ConfigManager] [DEBUG] Saving to disk...
+[2021-01-11 15:13:28] [General - ConfigManager] [INFO] Settings saved!
+[2021-01-11 15:13:29] [VisionModule - VisionModule - mmal_service_16.1] [INFO] Setting pipeline to 1
+[2021-01-11 15:13:31] [General - ConfigManager] [DEBUG] Saving to disk...
+[2021-01-11 15:13:31] [VisionModule - VisionModule - mmal_service_16.1] [INFO] Setting pipeline to 2
+[2021-01-11 15:13:31] [General - ConfigManager] [INFO] Settings saved!
+[2021-01-11 15:13:33] [General - ConfigManager] [DEBUG] Saving to disk...
+[2021-01-11 15:13:33] [General - ConfigManager] [INFO] Settings saved!
+[2021-01-11 15:13:34] [VisionModule - VisionModule - mmal_service_16.1] [INFO] Setting pipeline to 0
+[2021-01-11 15:13:35] [General - ConfigManager] [DEBUG] Saving to disk...
+[2021-01-11 15:13:36] [General - ConfigManager] [INFO] Settings saved!
+[2021-01-11 15:14:03] [General - ConfigManager] [DEBUG] Saving to disk...
+[2021-01-11 15:14:03] [General - ConfigManager] [INFO] Settings saved!
+[2021-01-11 15:14:07] [General - ConfigManager] [DEBUG] Saving to disk...
+[2021-01-11 15:14:07] [VisionModule - VisionModule - mmal_service_16.1] [INFO] Setting pipeline to 2
+[2021-01-11 15:14:07] [General - ConfigManager] [INFO] Settings saved!
+[2021-01-11 15:14:11] [VisionModule - VisionModule - mmal_service_16.1] [INFO] Setting pipeline to -1
+[2021-01-11 15:14:12] [General - ConfigManager] [DEBUG] Saving to disk...
+[2021-01-11 15:14:13] [General - ConfigManager] [INFO] Settings saved!
+[2021-01-11 15:14:13] [General - MetricsPublisher] [DEBUG] Publishing Metrics...
+[2021-01-11 15:14:13] [General - ShellExec] [DEBUG] Executing "sed 's/.\{3\}$/.&/' <<< cat /sys/class/thermal/thermal_zone0/temp"
+[2021-01-11 15:14:13] [General - ShellExec] [DEBUG] Got exit code 0
+[2021-01-11 15:14:13] [General - ShellExec] [DEBUG] Executing "top -bn1 | grep "Cpu(s)" | sed "s/.*, *\([0-9.]*\)%* id.*/\1/" | awk '{print 100 - $1}'"
+[2021-01-11 15:14:13] [General - ShellExec] [DEBUG] Got exit code 0
+[2021-01-11 15:14:13] [General - ShellExec] [DEBUG] Executing "free --mega | awk -v i=2 -v j=3 'FNR == i {print $j}'"
+[2021-01-11 15:14:13] [General - ShellExec] [DEBUG] Got exit code 0
+[2021-01-11 15:14:13] [General - ShellExec] [DEBUG] Executing "vcgencmd get_mem malloc | grep -Eo '[0-9]+'"
+[2021-01-11 15:14:13] [General - ShellExec] [DEBUG] Got exit code 0
+[2021-01-11 15:14:13] [General - ShellExec] [DEBUG] Executing "df ./ --output=pcent | tail -n +2"
+[2021-01-11 15:14:13] [General - ShellExec] [DEBUG] Got exit code 0
+[2021-01-11 15:14:13] [WebServer - Server] [DEBUG] Handled HTTP POST request from 10.6.86.99 in 349.6642ms
+[2021-01-11 15:14:14] [VisionModule - VisionModuleChangeSubscriber - mmal_service_16.1] [DEBUG] Skipping pipeline change, index -1 already active
+[2021-01-11 15:14:18] [WebServer - Server] [DEBUG] Handled HTTP GET request from 10.6.86.99 in 11.810157ms
+[2021-01-11 15:14:18] [WebServer - Server] [DEBUG] Handled HTTP GET request from 10.6.86.99 in 3.448177ms
+[2021-01-11 15:14:18] [WebServer - Server] [DEBUG] Handled HTTP GET request from 10.6.86.99 in 3.713594ms
+[2021-01-11 15:14:18] [WebServer - Server] [DEBUG] Handled HTTP GET request from 10.6.86.99 in 13.657709ms
+[2021-01-11 15:14:18] [WebServer - Server] [DEBUG] Handled HTTP GET request from 10.6.86.99 in 5.542031ms
+[2021-01-11 15:14:18] [WebServer - Server] [DEBUG] Handled HTTP GET request from 10.6.86.99 in 7.139896ms
+[2021-01-11 15:14:18] [WebServer - Server] [DEBUG] Handled HTTP GET request from 10.6.86.99 in 22.980885ms
+[2021-01-11 15:14:18] [WebServer - Server] [DEBUG] Handled HTTP GET request from 10.6.86.99 in 6.381146ms
+[2021-01-11 15:14:18] [WebServer - Server] [DEBUG] Handled HTTP GET request from 10.6.86.99 in 3.629687ms
+[2021-01-11 15:14:18] [WebServer - Server] [DEBUG] Handled HTTP GET request from 10.6.86.99 in 3.866354ms
+[2021-01-11 15:14:18] [WebServer - Server] [DEBUG] Handled HTTP GET request from 10.6.86.99 in 3.491771ms
+[2021-01-11 15:14:18] [WebServer - Server] [DEBUG] Handled HTTP GET request from 10.6.86.99 in 6.025677ms
+[2021-01-11 15:14:18] [WebServer - Server] [DEBUG] Handled HTTP GET request from 10.6.86.99 in 3.662448ms
+[2021-01-11 15:14:18] [WebServer - Server] [DEBUG] Handled HTTP GET request from 10.6.86.99 in 4.557031ms
+[2021-01-11 15:14:18] [WebServer - Server] [DEBUG] Handled HTTP GET request from 10.6.86.99 in 4.548698ms
+[2021-01-11 15:14:19] [General - MetricsPublisher] [DEBUG] Publishing Metrics...
+[2021-01-11 15:14:19] [General - ShellExec] [DEBUG] Executing "sed 's/.\{3\}$/.&/' <<< cat /sys/class/thermal/thermal_zone0/temp"
+[2021-01-11 15:14:19] [General - ShellExec] [DEBUG] Got exit code 0
+[2021-01-11 15:14:19] [General - ShellExec] [DEBUG] Executing "top -bn1 | grep "Cpu(s)" | sed "s/.*, *\([0-9.]*\)%* id.*/\1/" | awk '{print 100 - $1}'"
+[2021-01-11 15:14:19] [General - ShellExec] [DEBUG] Got exit code 0
+[2021-01-11 15:14:20] [General - ShellExec] [DEBUG] Executing "free --mega | awk -v i=2 -v j=3 'FNR == i {print $j}'"
+[2021-01-11 15:14:20] [General - ShellExec] [DEBUG] Got exit code 0
+[2021-01-11 15:14:20] [General - ShellExec] [DEBUG] Executing "vcgencmd get_mem malloc | grep -Eo '[0-9]+'"
+[2021-01-11 15:14:20] [General - ShellExec] [DEBUG] Got exit code 0
+[2021-01-11 15:14:20] [General - ShellExec] [DEBUG] Executing "df ./ --output=pcent | tail -n +2"
+[2021-01-11 15:14:20] [General - ShellExec] [DEBUG] Got exit code 0
+[2021-01-11 15:14:20] [WebServer - Server] [DEBUG] Handled HTTP POST request from 10.6.86.99 in 354.33072ms
+[2021-01-11 15:14:20] [VisionModule - VisionModuleChangeSubscriber - mmal_service_16.1] [DEBUG] Skipping pipeline change, index -1 already active
+[2021-01-11 15:14:23] [VisionModule - VisionModule - mmal_service_16.1] [INFO] Setting pipeline to 0
+[2021-01-11 15:14:25] [General - ConfigManager] [DEBUG] Saving to disk...
+[2021-01-11 15:14:25] [General - ConfigManager] [INFO] Settings saved!
+[2021-01-11 15:14:27] [General - ConfigManager] [DEBUG] Saving to disk...
+[2021-01-11 15:14:27] [General - ConfigManager] [INFO] Settings saved!
+[2021-01-11 15:14:29] [VisionModule - VisionModule - mmal_service_16.1] [INFO] Setting pipeline to 2
+[2021-01-11 15:14:31] [General - ConfigManager] [DEBUG] Saving to disk...
+[2021-01-11 15:14:32] [General - ConfigManager] [INFO] Settings saved!
+[2021-01-11 15:14:40] [WebServer - SocketHandler] [INFO] Closing websocket connection from /10.6.86.99:60599 for reason: Connection closed by client
+[2021-01-11 15:14:40] [WebServer - SocketHandler] [INFO] All websocket connections are closed. Setting inputShouldShow to false.
+[2021-01-11 15:14:42] [General - ConfigManager] [DEBUG] Saving to disk...
+[2021-01-11 15:14:42] [General - ConfigManager] [INFO] Settings saved!
+[2021-01-11 15:16:58] [WebServer - Server] [DEBUG] Handled HTTP GET request from 10.6.86.99 in 10.097344ms
+[2021-01-11 15:16:58] [WebServer - Server] [DEBUG] Handled HTTP GET request from 10.6.86.99 in 14.168073ms
+[2021-01-11 15:16:58] [WebServer - Server] [DEBUG] Handled HTTP GET request from 10.6.86.99 in 28.012083ms
+[2021-01-11 15:16:59] [WebServer - Server] [DEBUG] Handled HTTP GET request from 10.6.86.99 in 196.69427ms
+[2021-01-11 15:16:59] [WebServer - Server] [DEBUG] Handled HTTP GET request from 10.6.86.99 in 213.63599ms
+[2021-01-11 15:16:59] [WebServer - Server] [DEBUG] Handled HTTP GET request from 10.6.86.99 in 35.32073ms
+[2021-01-11 15:16:59] [WebServer - Server] [DEBUG] Handled HTTP GET request from 10.6.86.99 in 203.28781ms
+[2021-01-11 15:16:59] [WebServer - Server] [DEBUG] Handled HTTP GET request from 10.6.86.99 in 221.17947ms
+[2021-01-11 15:17:00] [WebServer - Server] [DEBUG] Handled HTTP GET request from 10.6.86.99 in 1172.6803ms
+[2021-01-11 15:17:00] [WebServer - Server] [DEBUG] Handled HTTP GET request from 10.6.86.99 in 8.280469ms
+[2021-01-11 15:17:00] [WebServer - Server] [DEBUG] Handled HTTP GET request from 10.6.86.99 in 78.240105ms
+[2021-01-11 15:17:00] [WebServer - SocketHandler] [INFO] New websocket connection from /10.6.86.99:60733
+[2021-01-11 15:17:01] [WebServer - Server] [DEBUG] Handled HTTP GET request from 10.6.86.99 in 491.29666ms
+[2021-01-11 15:17:01] [WebServer - Server] [DEBUG] Handled HTTP GET request from 10.6.86.99 in 24.330313ms
+[2021-01-11 15:17:01] [General - NetworkTablesManager] [INFO] Searching for rios
+[2021-01-11 15:17:01] [General - NetworkTablesManager] [INFO] Trying 127.0.0.1
+[2021-01-11 15:17:01] [General - NetworkTablesManager] [INFO] Didn't match RIO IP
+[2021-01-11 15:17:01] [General - NetworkTablesManager] [INFO] Trying 10.6.86.11
+[2021-01-11 15:17:01] [General - NetworkTablesManager] [INFO] Maybe found 10.6.86.11
+[2021-01-11 15:17:01] [General - NetworkTablesManager] [INFO] Looking up 10.6.86.2
+[2021-01-11 15:17:01] [General - NetworkTablesManager] [INFO] Pinging 10.6.86.2
+[2021-01-11 15:17:02] [General - NetworkTablesManager] [INFO] Unable to reach 10.6.86.2
+[2021-01-11 15:17:02] [General - NetworkTablesManager] [INFO] Trying 169.254.249.120
+[2021-01-11 15:17:02] [General - NetworkTablesManager] [INFO] Didn't match RIO IP
+[2021-01-11 15:17:02] [General - NetworkTablesManager] [INFO] Looking up roboRIO-686-FRC.local
+[2021-01-11 15:17:03] [VisionModule - VisionModule - mmal_service_16.1] [INFO] Setting pipeline to 0
+[2021-01-11 15:17:04] [WebServer - Server] [DEBUG] Handled HTTP GET request from 10.6.86.99 in 21.51349ms
+[2021-01-11 15:17:05] [General - ConfigManager] [DEBUG] Saving to disk...
+[2021-01-11 15:17:05] [General - ConfigManager] [INFO] Settings saved!
+[2021-01-11 15:17:07] [VisionModule - VisionModule - mmal_service_16.1] [INFO] Setting pipeline to -1
+[2021-01-11 15:17:08] [VisionModule - VisionModule - mmal_service_16.1] [INFO] Setting pipeline to 0
+[2021-01-11 15:17:08] [General - ConfigManager] [DEBUG] Saving to disk...
+[2021-01-11 15:17:08] [General - ConfigManager] [INFO] Settings saved!
+[2021-01-11 15:17:09] [General - ConfigManager] [DEBUG] Saving to disk...
+[2021-01-11 15:17:10] [General - ConfigManager] [INFO] Settings saved!
+[2021-01-11 15:17:12] [VisionModule - VisionModuleChangeSubscriber - mmal_service_16.1] [DEBUG] Skipping pipeline change, index 0 already active
+[2021-01-11 15:17:17] [General - NetworkTablesManager] [INFO] Looking up roboRIO-686-FRC.lan
+[2021-01-11 15:17:20] [VisionModule - VisionModule - mmal_service_16.1] [INFO] Setting pipeline to -1
+[2021-01-11 15:17:21] [VisionModule - VisionModule - mmal_service_16.1] [INFO] Setting pipeline to 0
+[2021-01-11 15:17:23] [General - ConfigManager] [DEBUG] Saving to disk...
+[2021-01-11 15:17:23] [General - ConfigManager] [INFO] Settings saved!
+[2021-01-11 15:17:25] [VisionModule - VisionModule - mmal_service_16.1] [INFO] Setting pipeline to 1
+[2021-01-11 15:17:27] [General - NetworkTablesManager] [INFO] Looking up roboRIO-686-FRC.frc-field.local
+[2021-01-11 15:17:27] [General - ConfigManager] [DEBUG] Saving to disk...
+[2021-01-11 15:17:27] [General - ConfigManager] [INFO] Settings saved!
+[2021-01-11 15:17:31] [WebServer - Server] [DEBUG] Handled HTTP GET request from 10.6.86.99 in 17.257397ms
+[2021-01-11 15:17:31] [WebServer - Server] [DEBUG] Handled HTTP GET request from 10.6.86.99 in 19.622553ms
+[2021-01-11 15:17:31] [WebServer - Server] [DEBUG] Handled HTTP GET request from 10.6.86.99 in 6.80448ms
+[2021-01-11 15:17:31] [WebServer - Server] [DEBUG] Handled HTTP GET request from 10.6.86.99 in 6.3575ms
+[2021-01-11 15:17:31] [WebServer - Server] [DEBUG] Handled HTTP GET request from 10.6.86.99 in 17.449896ms
+[2021-01-11 15:17:31] [WebServer - Server] [DEBUG] Handled HTTP GET request from 10.6.86.99 in 14.262344ms
+[2021-01-11 15:17:31] [WebServer - Server] [DEBUG] Handled HTTP GET request from 10.6.86.99 in 9.690625ms
+[2021-01-11 15:17:31] [WebServer - Server] [DEBUG] Handled HTTP GET request from 10.6.86.99 in 7.093229ms
+[2021-01-11 15:17:31] [WebServer - Server] [DEBUG] Handled HTTP GET request from 10.6.86.99 in 16.45901ms
+[2021-01-11 15:17:31] [WebServer - SocketHandler] [INFO] New websocket connection from /10.6.86.99:60755
+[2021-01-11 15:17:31] [WebServer - Server] [DEBUG] Handled HTTP GET request from 10.6.86.99 in 5.821771ms
+[2021-01-11 15:17:31] [WebServer - Server] [DEBUG] Handled HTTP GET request from 10.6.86.99 in 6.273021ms
+[2021-01-11 15:17:31] [WebServer - Server] [DEBUG] Handled HTTP GET request from 10.6.86.99 in 4.773958ms
+[2021-01-11 15:17:32] [WebServer - Server] [DEBUG] Handled HTTP GET request from 10.6.86.99 in 4.639063ms
+[2021-01-11 15:17:32] [WebServer - Server] [DEBUG] Handled HTTP GET request from 10.6.86.99 in 5.099844ms
+[2021-01-11 15:17:32] [General - NetworkTablesManager] [INFO] Searching for rios
+[2021-01-11 15:17:32] [General - NetworkTablesManager] [INFO] Trying 127.0.0.1
+[2021-01-11 15:17:32] [General - NetworkTablesManager] [INFO] Didn't match RIO IP
+[2021-01-11 15:17:32] [General - NetworkTablesManager] [INFO] Trying 10.6.86.11
+[2021-01-11 15:17:32] [General - NetworkTablesManager] [INFO] Maybe found 10.6.86.11
+[2021-01-11 15:17:32] [General - NetworkTablesManager] [INFO] Looking up 10.6.86.2
+[2021-01-11 15:17:32] [General - NetworkTablesManager] [INFO] Pinging 10.6.86.2
+[2021-01-11 15:17:33] [WebServer - Server] [DEBUG] Handled HTTP GET request from 10.6.86.99 in 13.615364ms
+[2021-01-11 15:17:33] [General - NetworkTablesManager] [INFO] Unable to reach 10.6.86.2
+[2021-01-11 15:17:33] [General - NetworkTablesManager] [INFO] Trying 169.254.249.120
+[2021-01-11 15:17:33] [General - NetworkTablesManager] [INFO] Didn't match RIO IP
+[2021-01-11 15:17:33] [General - NetworkTablesManager] [INFO] Looking up roboRIO-686-FRC.local
+[2021-01-11 15:17:35] [VisionModule - VisionModule - mmal_service_16.1] [INFO] Setting pipeline to -1
+[2021-01-11 15:17:37] [VisionModule - VisionModule - mmal_service_16.1] [INFO] Setting pipeline to 1
+[2021-01-11 15:17:37] [General - ConfigManager] [DEBUG] Saving to disk...
+[2021-01-11 15:17:37] [General - ConfigManager] [INFO] Settings saved!
+[2021-01-11 15:17:38] [General - ConfigManager] [DEBUG] Saving to disk...
+[2021-01-11 15:17:39] [General - ConfigManager] [INFO] Settings saved!
+[2021-01-11 15:17:43] [WebServer - SocketHandler] [INFO] Closing websocket connection from /10.6.86.99:60733 for reason: Connection closed by client
+[2021-01-11 15:17:44] [VisionModule - VisionModule - mmal_service_16.1] [INFO] Setting pipeline to -1
+[2021-01-11 15:17:46] [General - ConfigManager] [DEBUG] Saving to disk...
+[2021-01-11 15:17:46] [General - ConfigManager] [INFO] Settings saved!
+[2021-01-11 15:17:48] [General - NetworkTablesManager] [INFO] Looking up roboRIO-686-FRC.lan
+[2021-01-11 15:17:48] [VisionModule - VisionModule - mmal_service_16.1] [INFO] Setting pipeline to 0
+[2021-01-11 15:17:50] [General - ConfigManager] [DEBUG] Saving to disk...
+[2021-01-11 15:17:50] [General - ConfigManager] [INFO] Settings saved!
+[2021-01-11 15:17:50] [WebServer - Server] [DEBUG] Handled HTTP GET request from 10.6.86.99 in 3.535573ms
+[2021-01-11 15:17:50] [WebServer - Server] [DEBUG] Handled HTTP GET request from 10.6.86.99 in 5.315573ms
+[2021-01-11 15:17:51] [WebServer - SocketHandler] [INFO] Closing websocket connection from /10.6.86.99:60755 for reason: Connection closed by client
+[2021-01-11 15:17:51] [WebServer - SocketHandler] [INFO] All websocket connections are closed. Setting inputShouldShow to false.
+[2021-01-11 15:17:51] [WebServer - Server] [DEBUG] Handled HTTP GET request from 10.6.86.99 in 5.632657ms
+[2021-01-11 15:17:51] [WebServer - Server] [DEBUG] Handled HTTP GET request from 10.6.86.99 in 8.923802ms
+[2021-01-11 15:17:51] [WebServer - Server] [DEBUG] Handled HTTP GET request from 10.6.86.99 in 6.119167ms
+[2021-01-11 15:17:51] [WebServer - Server] [DEBUG] Handled HTTP GET request from 10.6.86.99 in 4.222187ms
+[2021-01-11 15:17:51] [WebServer - Server] [DEBUG] Handled HTTP GET request from 10.6.86.99 in 7.820416ms
+[2021-01-11 15:17:51] [WebServer - Server] [DEBUG] Handled HTTP GET request from 10.6.86.99 in 14.268906ms
+[2021-01-11 15:17:51] [WebServer - Server] [DEBUG] Handled HTTP GET request from 10.6.86.99 in 10.830469ms
+[2021-01-11 15:17:51] [WebServer - Server] [DEBUG] Handled HTTP GET request from 10.6.86.99 in 6.157396ms
+[2021-01-11 15:17:51] [WebServer - SocketHandler] [INFO] New websocket connection from /10.6.86.99:60767
+[2021-01-11 15:17:51] [WebServer - Server] [DEBUG] Handled HTTP GET request from 10.6.86.99 in 6.843594ms
+[2021-01-11 15:17:51] [WebServer - Server] [DEBUG] Handled HTTP GET request from 10.6.86.99 in 5.472396ms
+[2021-01-11 15:17:51] [WebServer - Server] [DEBUG] Handled HTTP GET request from 10.6.86.99 in 7.828594ms
+[2021-01-11 15:17:51] [WebServer - Server] [DEBUG] Handled HTTP GET request from 10.6.86.99 in 14.565312ms
+[2021-01-11 15:17:52] [General - NetworkTablesManager] [INFO] Searching for rios
+[2021-01-11 15:17:52] [General - NetworkTablesManager] [INFO] Trying 127.0.0.1
+[2021-01-11 15:17:52] [General - NetworkTablesManager] [INFO] Didn't match RIO IP
+[2021-01-11 15:17:52] [General - NetworkTablesManager] [INFO] Trying 10.6.86.11
+[2021-01-11 15:17:52] [General - NetworkTablesManager] [INFO] Maybe found 10.6.86.11
+[2021-01-11 15:17:52] [General - NetworkTablesManager] [INFO] Looking up 10.6.86.2
+[2021-01-11 15:17:52] [General - NetworkTablesManager] [INFO] Pinging 10.6.86.2
+[2021-01-11 15:17:52] [General - ConfigManager] [DEBUG] Saving to disk...
+[2021-01-11 15:17:52] [General - ConfigManager] [INFO] Settings saved!
+[2021-01-11 15:17:52] [General - NetworkTablesManager] [INFO] Unable to reach 10.6.86.2
+[2021-01-11 15:17:52] [General - NetworkTablesManager] [INFO] Trying 169.254.249.120
+[2021-01-11 15:17:52] [General - NetworkTablesManager] [INFO] Didn't match RIO IP
+[2021-01-11 15:17:52] [General - NetworkTablesManager] [INFO] Looking up roboRIO-686-FRC.local
+[2021-01-11 15:17:52] [General - NetworkTablesManager] [INFO] Looking up roboRIO-686-FRC.lan
+[2021-01-11 15:17:55] [VisionModule - VisionModule - mmal_service_16.1] [INFO] Setting pipeline to 1
+[2021-01-11 15:17:56] [General - ConfigManager] [DEBUG] Saving to disk...
+[2021-01-11 15:17:57] [General - ConfigManager] [INFO] Settings saved!
+[2021-01-11 15:17:58] [General - NetworkTablesManager] [INFO] Looking up roboRIO-686-FRC.frc-field.local
+[2021-01-11 15:17:58] [General - NetworkTablesManager] [INFO] Looking up roboRIO-686-FRC.frc-field.local
+[2021-01-11 15:18:02] [VisionModule - VisionModuleChangeSubscriber - mmal_service_16.1] [DEBUG] Skipping pipeline change, index 1 already active
+[2021-01-11 15:18:06] [VisionModule - VisionModule - mmal_service_16.1] [INFO] Setting pipeline to 2
+[2021-01-11 15:18:08] [General - ConfigManager] [DEBUG] Saving to disk...
+[2021-01-11 15:18:08] [General - ConfigManager] [INFO] Settings saved!
+[2021-01-11 15:18:12] [General - ConfigManager] [DEBUG] Saving to disk...
+[2021-01-11 15:18:12] [General - ConfigManager] [INFO] Settings saved!
+[2021-01-11 15:18:16] [General - ConfigManager] [DEBUG] Saving to disk...
+[2021-01-11 15:18:16] [General - ConfigManager] [INFO] Settings saved!
+[2021-01-11 15:18:24] [General - ConfigManager] [DEBUG] Saving to disk...
+[2021-01-11 15:18:25] [General - ConfigManager] [INFO] Settings saved!
+[2021-01-11 15:18:43] [General - ConfigManager] [DEBUG] Saving to disk...
+[2021-01-11 15:18:43] [General - ConfigManager] [INFO] Settings saved!
+[2021-01-11 15:18:53] [General - ConfigManager] [DEBUG] Saving to disk...
+[2021-01-11 15:18:53] [General - ConfigManager] [INFO] Settings saved!
+[2021-01-11 15:18:55] [General - ConfigManager] [DEBUG] Saving to disk...
+[2021-01-11 15:18:55] [General - ConfigManager] [INFO] Settings saved!
+[2021-01-11 15:19:10] [General - ConfigManager] [DEBUG] Saving to disk...
+[2021-01-11 15:19:11] [General - ConfigManager] [INFO] Settings saved!
+[2021-01-11 15:19:13] [General - ConfigManager] [DEBUG] Saving to disk...
+[2021-01-11 15:19:13] [General - ConfigManager] [INFO] Settings saved!
+[2021-01-11 15:19:47] [General - ConfigManager] [DEBUG] Saving to disk...
+[2021-01-11 15:19:47] [General - ConfigManager] [INFO] Settings saved!
+[2021-01-11 15:19:57] [General - ConfigManager] [DEBUG] Saving to disk...
+[2021-01-11 15:19:57] [General - ConfigManager] [INFO] Settings saved!
+[2021-01-11 15:20:02] [General - ConfigManager] [DEBUG] Saving to disk...
+[2021-01-11 15:20:03] [General - ConfigManager] [INFO] Settings saved!
+[2021-01-11 15:20:06] [General - ConfigManager] [DEBUG] Saving to disk...
+[2021-01-11 15:20:06] [General - ConfigManager] [INFO] Settings saved!
+[2021-01-11 15:20:09] [General - ConfigManager] [DEBUG] Saving to disk...
+[2021-01-11 15:20:09] [General - ConfigManager] [INFO] Settings saved!
+[2021-01-11 15:20:12] [General - ConfigManager] [DEBUG] Saving to disk...
+[2021-01-11 15:20:12] [General - ConfigManager] [INFO] Settings saved!
+[2021-01-11 15:20:15] [General - ConfigManager] [DEBUG] Saving to disk...
+[2021-01-11 15:20:15] [General - ConfigManager] [INFO] Settings saved!
+[2021-01-11 15:20:18] [General - ConfigManager] [DEBUG] Saving to disk...
+[2021-01-11 15:20:18] [General - ConfigManager] [INFO] Settings saved!
+[2021-01-11 15:21:07] [General - ConfigManager] [DEBUG] Saving to disk...
+[2021-01-11 15:21:07] [General - ConfigManager] [INFO] Settings saved!
+[2021-01-11 15:21:14] [General - ConfigManager] [DEBUG] Saving to disk...
+[2021-01-11 15:21:14] [General - ConfigManager] [INFO] Settings saved!
+[2021-01-11 15:21:18] [General - ConfigManager] [DEBUG] Saving to disk...
+[2021-01-11 15:21:19] [General - ConfigManager] [INFO] Settings saved!
+[2021-01-11 15:21:25] [General - ConfigManager] [DEBUG] Saving to disk...
+[2021-01-11 15:21:25] [General - ConfigManager] [INFO] Settings saved!
+[2021-01-11 15:21:29] [General - ConfigManager] [DEBUG] Saving to disk...
+[2021-01-11 15:21:29] [General - ConfigManager] [INFO] Settings saved!
+[2021-01-11 15:21:36] [General - ConfigManager] [DEBUG] Saving to disk...
+[2021-01-11 15:21:36] [General - ConfigManager] [INFO] Settings saved!
+[2021-01-11 15:21:40] [General - ConfigManager] [DEBUG] Saving to disk...
+[2021-01-11 15:21:40] [General - ConfigManager] [INFO] Settings saved!
+[2021-01-11 15:21:52] [General - ConfigManager] [DEBUG] Saving to disk...
+[2021-01-11 15:21:53] [General - ConfigManager] [INFO] Settings saved!
+[2021-01-11 15:21:57] [General - ConfigManager] [DEBUG] Saving to disk...
+[2021-01-11 15:21:57] [General - ConfigManager] [INFO] Settings saved!
+[2021-01-11 15:22:01] [General - ConfigManager] [DEBUG] Saving to disk...
+[2021-01-11 15:22:01] [General - ConfigManager] [INFO] Settings saved!
+[2021-01-11 15:22:05] [General - ConfigManager] [DEBUG] Saving to disk...
+[2021-01-11 15:22:05] [General - ConfigManager] [INFO] Settings saved!
+[2021-01-11 15:22:46] [General - ConfigManager] [DEBUG] Saving to disk...
+[2021-01-11 15:22:47] [General - ConfigManager] [INFO] Settings saved!
+[2021-01-11 15:22:55] [General - ConfigManager] [DEBUG] Saving to disk...
+[2021-01-11 15:22:55] [General - ConfigManager] [INFO] Settings saved!
+[2021-01-11 15:23:25] [General - ConfigManager] [DEBUG] Saving to disk...
+[2021-01-11 15:23:25] [General - ConfigManager] [INFO] Settings saved!
+[2021-01-11 15:23:46] [General - ConfigManager] [DEBUG] Saving to disk...
+[2021-01-11 15:23:46] [General - ConfigManager] [INFO] Settings saved!
+[2021-01-11 15:23:51] [General - ConfigManager] [DEBUG] Saving to disk...
+[2021-01-11 15:23:51] [General - ConfigManager] [INFO] Settings saved!
+[2021-01-11 15:23:55] [General - ConfigManager] [DEBUG] Saving to disk...
+[2021-01-11 15:23:56] [General - ConfigManager] [INFO] Settings saved!
+[2021-01-11 15:23:58] [General - ConfigManager] [DEBUG] Saving to disk...
+[2021-01-11 15:23:58] [General - ConfigManager] [INFO] Settings saved!
+[2021-01-11 15:24:06] [General - ConfigManager] [DEBUG] Saving to disk...
+[2021-01-11 15:24:06] [General - ConfigManager] [INFO] Settings saved!
+[2021-01-11 15:24:37] [General - ConfigManager] [DEBUG] Saving to disk...
+[2021-01-11 15:24:38] [General - ConfigManager] [INFO] Settings saved!
+[2021-01-11 15:24:45] [General - ConfigManager] [DEBUG] Saving to disk...
+[2021-01-11 15:24:45] [General - ConfigManager] [INFO] Settings saved!
+[2021-01-11 15:24:45] [VisionModule - VisionModule - mmal_service_16.1] [INFO] Setting pipeline to -1
+[2021-01-11 15:24:46] [VisionModule - VisionModule - mmal_service_16.1] [INFO] Setting pipeline to 0
+[2021-01-11 15:24:48] [General - ConfigManager] [DEBUG] Saving to disk...
+[2021-01-11 15:24:48] [General - ConfigManager] [INFO] Settings saved!
+[2021-01-11 15:24:52] [VisionModule - VisionModule - mmal_service_16.1] [INFO] Setting pipeline to 2
+[2021-01-11 15:24:54] [General - ConfigManager] [DEBUG] Saving to disk...
+[2021-01-11 15:24:54] [VisionModule - VisionModule - mmal_service_16.1] [INFO] Setting pipeline to -1
+[2021-01-11 15:24:54] [General - ConfigManager] [INFO] Settings saved!
+[2021-01-11 15:24:56] [General - ConfigManager] [DEBUG] Saving to disk...
+[2021-01-11 15:24:56] [General - ConfigManager] [INFO] Settings saved!
+[2021-01-11 15:25:02] [VisionModule - VisionModule - mmal_service_16.1] [INFO] Setting pipeline to 0
+[2021-01-11 15:25:03] [General - ConfigManager] [DEBUG] Saving to disk...
+[2021-01-11 15:25:04] [General - ConfigManager] [INFO] Settings saved!
+[2021-01-11 15:25:07] [VisionModule - VisionModule - mmal_service_16.1] [INFO] Setting pipeline to 2
+[2021-01-11 15:25:09] [General - ConfigManager] [DEBUG] Saving to disk...
+[2021-01-11 15:25:09] [General - ConfigManager] [INFO] Settings saved!
+[2021-01-11 15:25:28] [General - ConfigManager] [DEBUG] Saving to disk...
+[2021-01-11 15:25:29] [General - ConfigManager] [INFO] Settings saved!
+[2021-01-11 15:25:35] [General - ConfigManager] [DEBUG] Saving to disk...
+[2021-01-11 15:25:35] [General - ConfigManager] [INFO] Settings saved!
+[2021-01-11 15:25:37] [General - ConfigManager] [DEBUG] Saving to disk...
+[2021-01-11 15:25:37] [General - ConfigManager] [INFO] Settings saved!
+[2021-01-11 15:25:40] [General - ConfigManager] [DEBUG] Saving to disk...
+[2021-01-11 15:25:40] [General - ConfigManager] [INFO] Settings saved!
+[2021-01-11 15:25:43] [General - ConfigManager] [DEBUG] Saving to disk...
+[2021-01-11 15:25:44] [General - ConfigManager] [INFO] Settings saved!
+[2021-01-11 15:25:54] [General - ConfigManager] [DEBUG] Saving to disk...
+[2021-01-11 15:25:54] [General - ConfigManager] [INFO] Settings saved!
+[2021-01-11 15:26:01] [General - ConfigManager] [DEBUG] Saving to disk...
+[2021-01-11 15:26:01] [General - ConfigManager] [INFO] Settings saved!
+[2021-01-11 15:26:12] [General - ConfigManager] [DEBUG] Saving to disk...
+[2021-01-11 15:26:12] [General - ConfigManager] [INFO] Settings saved!
+[2021-01-11 15:26:16] [General - ConfigManager] [DEBUG] Saving to disk...
+[2021-01-11 15:26:16] [General - ConfigManager] [INFO] Settings saved!
+[2021-01-11 15:26:19] [General - ConfigManager] [DEBUG] Saving to disk...
+[2021-01-11 15:26:20] [General - ConfigManager] [INFO] Settings saved!
+[2021-01-11 15:26:30] [General - ConfigManager] [DEBUG] Saving to disk...
+[2021-01-11 15:26:30] [General - ConfigManager] [INFO] Settings saved!
+[2021-01-11 15:26:53] [General - ConfigManager] [DEBUG] Saving to disk...
+[2021-01-11 15:26:53] [General - ConfigManager] [INFO] Settings saved!
+[2021-01-11 15:27:04] [General - ConfigManager] [DEBUG] Saving to disk...
+[2021-01-11 15:27:04] [General - ConfigManager] [INFO] Settings saved!
+[2021-01-11 15:27:06] [General - ConfigManager] [DEBUG] Saving to disk...
+[2021-01-11 15:27:06] [General - ConfigManager] [INFO] Settings saved!
+[2021-01-11 15:27:07] [General - ConfigManager] [DEBUG] Saving to disk...
+[2021-01-11 15:27:08] [General - ConfigManager] [INFO] Settings saved!
+[2021-01-11 15:27:18] [General - ConfigManager] [DEBUG] Saving to disk...
+[2021-01-11 15:27:18] [General - ConfigManager] [INFO] Settings saved!
+[2021-01-11 15:27:39] [General - ConfigManager] [DEBUG] Saving to disk...
+[2021-01-11 15:27:39] [General - ConfigManager] [INFO] Settings saved!
+[2021-01-11 15:28:15] [General - ConfigManager] [DEBUG] Saving to disk...
+[2021-01-11 15:28:16] [General - ConfigManager] [INFO] Settings saved!
+[2021-01-11 15:28:23] [General - ConfigManager] [DEBUG] Saving to disk...
+[2021-01-11 15:28:23] [General - ConfigManager] [INFO] Settings saved!
+[2021-01-11 15:29:05] [General - ConfigManager] [DEBUG] Saving to disk...
+[2021-01-11 15:29:05] [General - ConfigManager] [INFO] Settings saved!
+[2021-01-11 15:29:07] [General - ConfigManager] [DEBUG] Saving to disk...
+[2021-01-11 15:29:07] [General - ConfigManager] [INFO] Settings saved!
+[2021-01-11 15:29:34] [VisionModule - VisionModuleChangeSubscriber - mmal_service_16.1] [INFO] Changing nick to Red Cargo Best
+[2021-01-11 15:29:36] [General - ConfigManager] [DEBUG] Saving to disk...
+[2021-01-11 15:29:36] [General - ConfigManager] [INFO] Settings saved!
+[2021-01-11 15:29:37] [VisionModule - VisionModule - mmal_service_16.1] [INFO] Setting pipeline to 1
+[2021-01-11 15:29:38] [General - ConfigManager] [DEBUG] Saving to disk...
+[2021-01-11 15:29:39] [General - ConfigManager] [INFO] Settings saved!
+[2021-01-11 15:29:43] [VisionModule - VisionModule - mmal_service_16.1] [INFO] Setting pipeline to 2
+[2021-01-11 15:29:45] [General - ConfigManager] [DEBUG] Saving to disk...
+[2021-01-11 15:29:45] [General - ConfigManager] [INFO] Settings saved!
+[2021-01-11 15:29:52] [VisionModule - VisionModule - mmal_service_16.1] [INFO] Setting pipeline to 0
+[2021-01-11 15:29:54] [General - ConfigManager] [DEBUG] Saving to disk...
+[2021-01-11 15:29:54] [General - ConfigManager] [INFO] Settings saved!
+[2021-01-11 15:30:21] [General - ConfigManager] [DEBUG] Saving to disk...
+[2021-01-11 15:30:21] [General - ConfigManager] [INFO] Settings saved!
+[2021-01-11 15:30:30] [General - ConfigManager] [DEBUG] Saving to disk...
+[2021-01-11 15:30:30] [General - ConfigManager] [INFO] Settings saved!
+[2021-01-11 15:30:33] [General - ConfigManager] [DEBUG] Saving to disk...
+[2021-01-11 15:30:34] [General - ConfigManager] [INFO] Settings saved!
+[2021-01-11 15:30:38] [General - ConfigManager] [DEBUG] Saving to disk...
+[2021-01-11 15:30:38] [General - ConfigManager] [INFO] Settings saved!
+[2021-01-11 15:30:41] [General - ConfigManager] [DEBUG] Saving to disk...
+[2021-01-11 15:30:41] [General - ConfigManager] [INFO] Settings saved!
+[2021-01-11 15:30:45] [General - ConfigManager] [DEBUG] Saving to disk...
+[2021-01-11 15:30:45] [General - ConfigManager] [INFO] Settings saved!
+[2021-01-11 15:30:52] [General - ConfigManager] [DEBUG] Saving to disk...
+[2021-01-11 15:30:52] [General - ConfigManager] [INFO] Settings saved!
+[2021-01-11 15:30:57] [General - ConfigManager] [DEBUG] Saving to disk...
+[2021-01-11 15:30:57] [General - ConfigManager] [INFO] Settings saved!
+[2021-01-11 15:31:10] [General - ConfigManager] [DEBUG] Saving to disk...
+[2021-01-11 15:31:10] [General - ConfigManager] [INFO] Settings saved!
+[2021-01-11 15:31:16] [General - ConfigManager] [DEBUG] Saving to disk...
+[2021-01-11 15:31:16] [General - ConfigManager] [INFO] Settings saved!
+[2021-01-11 15:31:19] [General - ConfigManager] [DEBUG] Saving to disk...
+[2021-01-11 15:31:19] [General - ConfigManager] [INFO] Settings saved!
+[2021-01-11 15:31:31] [General - ConfigManager] [DEBUG] Saving to disk...
+[2021-01-11 15:31:31] [General - ConfigManager] [INFO] Settings saved!
+[2021-01-11 15:31:33] [General - ConfigManager] [DEBUG] Saving to disk...
+[2021-01-11 15:31:34] [General - ConfigManager] [INFO] Settings saved!
+[2021-01-11 15:31:44] [VisionModule - VisionModuleChangeSubscriber - mmal_service_16.1] [INFO] Deleting current pipe at index 0
+[2021-01-11 15:31:44] [VisionModule - VisionModule - mmal_service_16.1] [INFO] Setting pipeline to 0
+[2021-01-11 15:31:46] [General - ConfigManager] [DEBUG] Saving to disk...
+[2021-01-11 15:31:46] [General - ConfigManager] [INFO] Settings saved!
+[2021-01-11 15:31:47] [VisionModule - VisionModuleChangeSubscriber - mmal_service_16.1] [DEBUG] Skipping pipeline change, index 0 already active
+[2021-01-11 15:31:50] [General - MetricsPublisher] [DEBUG] Publishing Metrics...
+[2021-01-11 15:31:50] [General - ShellExec] [DEBUG] Executing "sed 's/.\{3\}$/.&/' <<< cat /sys/class/thermal/thermal_zone0/temp"
+[2021-01-11 15:31:50] [General - ShellExec] [DEBUG] Got exit code 0
+[2021-01-11 15:31:50] [General - ShellExec] [DEBUG] Executing "top -bn1 | grep "Cpu(s)" | sed "s/.*, *\([0-9.]*\)%* id.*/\1/" | awk '{print 100 - $1}'"
+[2021-01-11 15:31:50] [General - ShellExec] [DEBUG] Got exit code 0
+[2021-01-11 15:31:50] [General - ShellExec] [DEBUG] Executing "free --mega | awk -v i=2 -v j=3 'FNR == i {print $j}'"
+[2021-01-11 15:31:50] [General - ShellExec] [DEBUG] Got exit code 0
+[2021-01-11 15:31:50] [General - ShellExec] [DEBUG] Executing "vcgencmd get_mem malloc | grep -Eo '[0-9]+'"
+[2021-01-11 15:31:50] [General - ShellExec] [DEBUG] Got exit code 0
+[2021-01-11 15:31:50] [General - ShellExec] [DEBUG] Executing "df ./ --output=pcent | tail -n +2"
+[2021-01-11 15:31:51] [General - ShellExec] [DEBUG] Got exit code 0
+[2021-01-11 15:31:51] [WebServer - Server] [DEBUG] Handled HTTP POST request from 10.6.86.99 in 397.17056ms
+[2021-01-11 15:31:52] [WebServer - RequestHandler] [INFO] exporting settings to download...

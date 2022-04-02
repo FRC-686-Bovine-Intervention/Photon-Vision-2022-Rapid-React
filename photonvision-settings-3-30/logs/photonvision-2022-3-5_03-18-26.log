@@ -1,0 +1,1383 @@
+[2022-03-05 15:18:26] [General - Main] [INFO] Logging initialized in debug mode.
+[2022-03-05 15:18:26] [General - Main] [INFO] Starting PhotonVision version v2022.1.5 on Windows x64
+[2022-03-05 15:18:26] [General - Main] [INFO] Native libraries loaded.
+[2022-03-05 15:18:26] [General - ConfigManager] [INFO] Loading settings...
+[2022-03-05 15:18:26] [General - ConfigManager] [INFO] Hardware config does not exist! Loading defaults
+[2022-03-05 15:18:26] [Camera - CameraConfiguration] [DEBUG] Creating camera configuration for UsbCameraHP HD Webcam (AKA HP_HD_Webcam) at \\?\usb#vid_05c8&pid_0369&mi_00#6&342fd1bb&0&0000#{e5323777-f976-4f5b-9b55-b94699c46e44}\global
+[2022-03-05 15:18:27] [Camera - CameraConfiguration] [DEBUG] Creating camera configuration for UsbCameraUSB_Camera (AKA USB_Camera) at \\?\usb#vid_0458&pid_708c&mi_00#6&29a4ead7&0&0000#{e5323777-f976-4f5b-9b55-b94699c46e44}\global
+[2022-03-05 15:18:27] [General - NetworkManager] [INFO] Setting DHCP with team team 686
+[2022-03-05 15:18:27] [General - NetworkManager] [INFO] Not managing network on non-Linux platforms
+[2022-03-05 15:18:27] [General - NetworkTablesManager] [INFO] Starting NT Client
+[2022-03-05 15:18:27] [General - NetworkTablesManager] [ERROR] [NetworkTablesManager] Could not connect to the robot! Will retry in the background...
+[2022-03-05 15:18:27] [Camera - VisionSourceManager] [DEBUG] Matching 2 new cameras!
+[2022-03-05 15:18:27] [Camera - VisionSourceManager] [INFO] Adding local video device - "HP HD Webcam" at "\\?\usb#vid_05c8&pid_0369&mi_00#6&342fd1bb&0&0000#{e5323777-f976-4f5b-9b55-b94699c46e44}\global"
+[2022-03-05 15:18:27] [Camera - VisionSourceManager] [INFO] Adding local video device - "USB_Camera" at "\\?\usb#vid_0458&pid_708c&mi_00#6&29a4ead7&0&0000#{e5323777-f976-4f5b-9b55-b94699c46e44}\global"
+[2022-03-05 15:18:27] [Camera - VisionSourceManager] [DEBUG] Trying to match 2 unmatched configs...
+[2022-03-05 15:18:27] [Camera - VisionSourceManager] [DEBUG] Trying to find a match for loaded camera HP HD Webcam with path \\?\usb#vid_05c8&pid_0369&mi_00#6&342fd1bb&0&0000#{e5323777-f976-4f5b-9b55-b94699c46e44}\global
+[2022-03-05 15:18:27] [Camera - VisionSourceManager] [DEBUG] Matched the config for HP HD Webcam to a physical camera!
+[2022-03-05 15:18:27] [Camera - VisionSourceManager] [DEBUG] Trying to find a match for loaded camera USB_Camera with path \\?\usb#vid_0458&pid_708c&mi_00#6&29a4ead7&0&0000#{e5323777-f976-4f5b-9b55-b94699c46e44}\global
+[2022-03-05 15:18:27] [Camera - VisionSourceManager] [DEBUG] Matched the config for USB_Camera to a physical camera!
+[2022-03-05 15:18:27] [Camera - VisionSourceManager] [DEBUG] After matching loaded configs 0 cameras were unmatched.
+[2022-03-05 15:18:27] [Camera - VisionSourceManager] [DEBUG] Matched or created 2 camera configs!
+[2022-03-05 15:18:27] [WebServer - DataChangeService] [DEBUG] Added subscriber - Sources: DCS_WEBSOCKET, DCS_HTTP, DCS_NETWORKTABLES, DCS_VISIONMODULE, DCS_OTHER, Destinations: DCD_UI
+[2022-03-05 15:18:27] [WebServer - DataChangeService] [DEBUG] Added subscriber - Sources: DCS_WEBSOCKET, Destinations: DCD_GENSETTINGS
+[2022-03-05 15:18:27] [Camera - VisionSourceManager] [DEBUG] Matched config for camera "USBFrameProvider - opencv_HP_HD_Webcam" and loaded 2 pipelines
+[2022-03-05 15:18:27] [Camera - VisionSourceManager] [DEBUG] Matched config for camera "USBFrameProvider - opencv_USB_Camera" and loaded 2 pipelines
+[2022-03-05 15:18:27] [Camera - VisionSourceManager] [INFO] Adding 2 configs to VMM.
+[2022-03-05 15:18:27] [WebServer - DataChangeService] [DEBUG] Added subscriber - Sources: DCS_WEBSOCKET, DCS_HTTP, DCS_NETWORKTABLES, DCS_VISIONMODULE, DCS_OTHER, Destinations: DCD_ACTIVEMODULE, DCD_ACTIVEPIPELINESETTINGS, DCD_GENSETTINGS, DCD_UI, DCD_OTHER
+[2022-03-05 15:18:27] [VisionModule - VisionModule - HP_HD_Webcam] [INFO] Setting pipeline to 0
+[2022-03-05 15:18:28] [Camera - USBCameraSource - HP_HD_Webcam] [DEBUG] Setting camera exposure to 50
+[2022-03-05 15:18:28] [WebServer - DataChangeService] [DEBUG] Added subscriber - Sources: DCS_WEBSOCKET, DCS_HTTP, DCS_NETWORKTABLES, DCS_VISIONMODULE, DCS_OTHER, Destinations: DCD_ACTIVEMODULE, DCD_ACTIVEPIPELINESETTINGS, DCD_GENSETTINGS, DCD_UI, DCD_OTHER
+[2022-03-05 15:18:28] [VisionModule - VisionModule - USB_Camera] [INFO] Setting pipeline to 1
+[2022-03-05 15:18:28] [Camera - USBCameraSource - USB_Camera] [DEBUG] Setting camera exposure to 0
+[2022-03-05 15:18:28] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 0
+[2022-03-05 15:18:28] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1
+[2022-03-05 15:18:28] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 2
+[2022-03-05 15:18:28] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 3
+[2022-03-05 15:18:28] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 4
+[2022-03-05 15:18:28] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 5
+[2022-03-05 15:18:28] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 6
+[2022-03-05 15:18:28] [General - NetworkTablesManager] [ERROR] NT Connection has failed! Will retry in background.
+[2022-03-05 15:18:28] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 7
+[2022-03-05 15:18:28] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 8
+[2022-03-05 15:18:28] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 9
+[2022-03-05 15:18:28] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 10
+[2022-03-05 15:18:28] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 11
+[2022-03-05 15:18:28] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 12
+[2022-03-05 15:18:28] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 13
+[2022-03-05 15:18:28] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 14
+[2022-03-05 15:18:28] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 15
+[2022-03-05 15:18:28] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 16
+[2022-03-05 15:18:28] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 17
+[2022-03-05 15:18:28] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 18
+[2022-03-05 15:18:28] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 19
+[2022-03-05 15:18:28] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 20
+[2022-03-05 15:18:28] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 21
+[2022-03-05 15:18:28] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 22
+[2022-03-05 15:18:29] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 23
+[2022-03-05 15:18:29] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 24
+[2022-03-05 15:18:29] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 25
+[2022-03-05 15:18:29] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 26
+[2022-03-05 15:18:29] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 27
+[2022-03-05 15:18:29] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 28
+[2022-03-05 15:18:29] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 29
+[2022-03-05 15:18:29] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 30
+[2022-03-05 15:18:29] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 31
+[2022-03-05 15:18:29] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 32
+[2022-03-05 15:18:29] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 33
+[2022-03-05 15:18:29] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 34
+[2022-03-05 15:18:29] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 35
+[2022-03-05 15:18:29] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 36
+[2022-03-05 15:18:29] [General - NetworkTablesManager] [INFO] Searching for rios
+[2022-03-05 15:18:29] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 37
+[2022-03-05 15:18:29] [General - NetworkTablesManager] [INFO] Trying 0.0.0.0
+[2022-03-05 15:18:29] [General - NetworkTablesManager] [INFO] Didn't match RIO IP
+[2022-03-05 15:18:29] [General - NetworkTablesManager] [INFO] Trying 192.168.56.1
+[2022-03-05 15:18:29] [General - NetworkTablesManager] [INFO] Didn't match RIO IP
+[2022-03-05 15:18:29] [General - NetworkTablesManager] [INFO] Trying 0.0.0.0
+[2022-03-05 15:18:29] [General - NetworkTablesManager] [INFO] Didn't match RIO IP
+[2022-03-05 15:18:29] [General - NetworkTablesManager] [INFO] Trying 0.0.0.0
+[2022-03-05 15:18:29] [General - NetworkTablesManager] [INFO] Didn't match RIO IP
+[2022-03-05 15:18:29] [General - NetworkTablesManager] [INFO] Trying 0.0.0.0
+[2022-03-05 15:18:29] [General - NetworkTablesManager] [INFO] Didn't match RIO IP
+[2022-03-05 15:18:29] [General - NetworkTablesManager] [INFO] Trying 0.0.0.0
+[2022-03-05 15:18:29] [General - NetworkTablesManager] [INFO] Didn't match RIO IP
+[2022-03-05 15:18:29] [General - NetworkTablesManager] [INFO] Trying 192.168.0.26
+[2022-03-05 15:18:29] [General - NetworkTablesManager] [INFO] Didn't match RIO IP
+[2022-03-05 15:18:29] [General - NetworkTablesManager] [INFO] Looking up roboRIO-686-FRC.local
+[2022-03-05 15:18:29] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 38
+[2022-03-05 15:18:29] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 39
+[2022-03-05 15:18:29] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 40
+[2022-03-05 15:18:29] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 41
+[2022-03-05 15:18:29] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 42
+[2022-03-05 15:18:29] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 43
+[2022-03-05 15:18:29] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 44
+[2022-03-05 15:18:29] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 45
+[2022-03-05 15:18:29] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 46
+[2022-03-05 15:18:29] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 47
+[2022-03-05 15:18:29] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 48
+[2022-03-05 15:18:29] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 49
+[2022-03-05 15:18:30] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 50
+[2022-03-05 15:18:30] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 51
+[2022-03-05 15:18:30] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 52
+[2022-03-05 15:18:30] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 53
+[2022-03-05 15:18:30] [General - ConfigManager] [DEBUG] Saving to disk...
+[2022-03-05 15:18:30] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 54
+[2022-03-05 15:18:30] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 55
+[2022-03-05 15:18:30] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 56
+[2022-03-05 15:18:30] [General - ConfigManager] [INFO] Settings saved!
+[2022-03-05 15:18:30] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 57
+[2022-03-05 15:18:30] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 58
+[2022-03-05 15:18:30] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 59
+[2022-03-05 15:18:30] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 60
+[2022-03-05 15:18:30] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 61
+[2022-03-05 15:18:30] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 62
+[2022-03-05 15:18:30] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 63
+[2022-03-05 15:18:30] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 64
+[2022-03-05 15:18:30] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 65
+[2022-03-05 15:18:30] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 66
+[2022-03-05 15:18:30] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 67
+[2022-03-05 15:18:30] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 68
+[2022-03-05 15:18:30] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 69
+[2022-03-05 15:18:30] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 70
+[2022-03-05 15:18:30] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 71
+[2022-03-05 15:18:30] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 72
+[2022-03-05 15:18:30] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 73
+[2022-03-05 15:18:30] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 74
+[2022-03-05 15:18:30] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 75
+[2022-03-05 15:18:30] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 76
+[2022-03-05 15:18:30] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 77
+[2022-03-05 15:18:31] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 78
+[2022-03-05 15:18:31] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 79
+[2022-03-05 15:18:31] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 80
+[2022-03-05 15:18:31] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 81
+[2022-03-05 15:18:31] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 82
+[2022-03-05 15:18:31] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 83
+[2022-03-05 15:18:31] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 84
+[2022-03-05 15:18:31] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 85
+[2022-03-05 15:18:31] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 86
+[2022-03-05 15:18:31] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 87
+[2022-03-05 15:18:31] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 88
+[2022-03-05 15:18:31] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 89
+[2022-03-05 15:18:31] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 90
+[2022-03-05 15:18:31] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 91
+[2022-03-05 15:18:31] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 92
+[2022-03-05 15:18:31] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 93
+[2022-03-05 15:18:31] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 94
+[2022-03-05 15:18:31] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 95
+[2022-03-05 15:18:31] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 96
+[2022-03-05 15:18:31] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 97
+[2022-03-05 15:18:31] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 98
+[2022-03-05 15:18:31] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 99
+[2022-03-05 15:18:31] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 100
+[2022-03-05 15:18:31] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 101
+[2022-03-05 15:18:31] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 102
+[2022-03-05 15:18:31] [General - NetworkTablesManager] [INFO] Looking up roboRIO-686-FRC.lan
+[2022-03-05 15:18:31] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 103
+[2022-03-05 15:18:31] [General - NetworkTablesManager] [INFO] Looking up roboRIO-686-FRC.frc-field.local
+[2022-03-05 15:18:31] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 104
+[2022-03-05 15:18:31] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 105
+[2022-03-05 15:18:31] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 106
+[2022-03-05 15:18:31] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 107
+[2022-03-05 15:18:32] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 108
+[2022-03-05 15:18:32] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 109
+[2022-03-05 15:18:32] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 110
+[2022-03-05 15:18:32] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 111
+[2022-03-05 15:18:32] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 112
+[2022-03-05 15:18:32] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 113
+[2022-03-05 15:18:32] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 114
+[2022-03-05 15:18:32] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 115
+[2022-03-05 15:18:32] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 116
+[2022-03-05 15:18:32] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 117
+[2022-03-05 15:18:32] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 118
+[2022-03-05 15:18:32] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 119
+[2022-03-05 15:18:32] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 120
+[2022-03-05 15:18:32] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 121
+[2022-03-05 15:18:32] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 122
+[2022-03-05 15:18:32] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 123
+[2022-03-05 15:18:32] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 124
+[2022-03-05 15:18:32] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 125
+[2022-03-05 15:18:32] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 126
+[2022-03-05 15:18:32] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 127
+[2022-03-05 15:18:32] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 128
+[2022-03-05 15:18:32] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 129
+[2022-03-05 15:18:32] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 130
+[2022-03-05 15:18:32] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 131
+[2022-03-05 15:18:32] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 132
+[2022-03-05 15:18:32] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 133
+[2022-03-05 15:18:32] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 134
+[2022-03-05 15:18:32] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 135
+[2022-03-05 15:18:32] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 136
+[2022-03-05 15:18:32] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 137
+[2022-03-05 15:18:33] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 138
+[2022-03-05 15:18:33] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 139
+[2022-03-05 15:18:33] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 140
+[2022-03-05 15:18:33] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 141
+[2022-03-05 15:18:33] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 142
+[2022-03-05 15:18:33] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 143
+[2022-03-05 15:18:33] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 144
+[2022-03-05 15:18:33] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 145
+[2022-03-05 15:18:33] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 146
+[2022-03-05 15:18:33] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 147
+[2022-03-05 15:18:33] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 148
+[2022-03-05 15:18:33] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 149
+[2022-03-05 15:18:33] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 150
+[2022-03-05 15:18:33] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 151
+[2022-03-05 15:18:33] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 152
+[2022-03-05 15:18:33] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 153
+[2022-03-05 15:18:33] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 154
+[2022-03-05 15:18:33] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 155
+[2022-03-05 15:18:33] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 156
+[2022-03-05 15:18:33] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 157
+[2022-03-05 15:18:33] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 158
+[2022-03-05 15:18:33] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 159
+[2022-03-05 15:18:33] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 160
+[2022-03-05 15:18:33] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 161
+[2022-03-05 15:18:33] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 162
+[2022-03-05 15:18:33] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 163
+[2022-03-05 15:18:33] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 164
+[2022-03-05 15:18:33] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 165
+[2022-03-05 15:18:33] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 166
+[2022-03-05 15:18:34] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 167
+[2022-03-05 15:18:34] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 168
+[2022-03-05 15:18:34] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 169
+[2022-03-05 15:18:34] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 170
+[2022-03-05 15:18:34] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 171
+[2022-03-05 15:18:34] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 172
+[2022-03-05 15:18:34] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 173
+[2022-03-05 15:18:34] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 174
+[2022-03-05 15:18:34] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 175
+[2022-03-05 15:18:34] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 176
+[2022-03-05 15:18:34] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 177
+[2022-03-05 15:18:34] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 178
+[2022-03-05 15:18:34] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 179
+[2022-03-05 15:18:34] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 180
+[2022-03-05 15:18:34] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 181
+[2022-03-05 15:18:34] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 182
+[2022-03-05 15:18:34] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 183
+[2022-03-05 15:18:34] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 184
+[2022-03-05 15:18:34] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 185
+[2022-03-05 15:18:34] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 186
+[2022-03-05 15:18:34] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 187
+[2022-03-05 15:18:34] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 188
+[2022-03-05 15:18:34] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 189
+[2022-03-05 15:18:34] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 190
+[2022-03-05 15:18:34] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 191
+[2022-03-05 15:18:34] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 192
+[2022-03-05 15:18:34] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 193
+[2022-03-05 15:18:34] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 194
+[2022-03-05 15:18:34] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 195
+[2022-03-05 15:18:34] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 196
+[2022-03-05 15:18:34] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 197
+[2022-03-05 15:18:35] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 198
+[2022-03-05 15:18:35] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 199
+[2022-03-05 15:18:35] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 200
+[2022-03-05 15:18:35] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 201
+[2022-03-05 15:18:35] [WebServer - Server] [DEBUG] Handled HTTP GET request from [0:0:0:0:0:0:0:1] in 9.3207ms
+[2022-03-05 15:18:35] [WebServer - Server] [DEBUG] Handled HTTP GET request from [0:0:0:0:0:0:0:1] in 12.4859ms
+[2022-03-05 15:18:35] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 202
+[2022-03-05 15:18:35] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 203
+[2022-03-05 15:18:35] [WebServer - Server] [DEBUG] Handled HTTP GET request from [0:0:0:0:0:0:0:1] in 1.8242ms
+[2022-03-05 15:18:35] [WebServer - Server] [DEBUG] Handled HTTP GET request from [0:0:0:0:0:0:0:1] in 1.6785ms
+[2022-03-05 15:18:35] [WebServer - Server] [DEBUG] Handled HTTP GET request from [0:0:0:0:0:0:0:1] in 1.2506ms
+[2022-03-05 15:18:35] [WebServer - Server] [DEBUG] Handled HTTP GET request from [0:0:0:0:0:0:0:1] in 2.6062ms
+[2022-03-05 15:18:35] [WebServer - Server] [DEBUG] Handled HTTP GET request from [0:0:0:0:0:0:0:1] in 1.3131ms
+[2022-03-05 15:18:35] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 204
+[2022-03-05 15:18:35] [WebServer - Server] [DEBUG] Handled HTTP GET request from [0:0:0:0:0:0:0:1] in 0.9802ms
+[2022-03-05 15:18:35] [WebServer - Server] [DEBUG] Handled HTTP GET request from [0:0:0:0:0:0:0:1] in 0.6113ms
+[2022-03-05 15:18:35] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 205
+[2022-03-05 15:18:35] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 206
+[2022-03-05 15:18:35] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 207
+[2022-03-05 15:18:35] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 208
+[2022-03-05 15:18:35] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 209
+[2022-03-05 15:18:35] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 210
+[2022-03-05 15:18:35] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 211
+[2022-03-05 15:18:35] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 212
+[2022-03-05 15:18:35] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 213
+[2022-03-05 15:18:35] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 214
+[2022-03-05 15:18:35] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 215
+[2022-03-05 15:18:35] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 216
+[2022-03-05 15:18:35] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 217
+[2022-03-05 15:18:35] [WebServer - SocketHandler] [INFO] New websocket connection from /0:0:0:0:0:0:0:1:54034
+[2022-03-05 15:18:35] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 218
+[2022-03-05 15:18:35] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 219
+[2022-03-05 15:18:36] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 220
+[2022-03-05 15:18:36] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 221
+[2022-03-05 15:18:36] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 222
+[2022-03-05 15:18:36] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 223
+[2022-03-05 15:18:36] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 224
+[2022-03-05 15:18:36] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 225
+[2022-03-05 15:18:36] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 226
+[2022-03-05 15:18:36] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 227
+[2022-03-05 15:18:36] [WebServer - Server] [DEBUG] Handled HTTP GET request from [0:0:0:0:0:0:0:1] in 2.2279ms
+[2022-03-05 15:18:36] [WebServer - Server] [DEBUG] Handled HTTP GET request from [0:0:0:0:0:0:0:1] in 1.9974ms
+[2022-03-05 15:18:36] [WebServer - Server] [DEBUG] Handled HTTP GET request from [0:0:0:0:0:0:0:1] in 5.9667ms
+[2022-03-05 15:18:36] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 228
+[2022-03-05 15:18:36] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 229
+[2022-03-05 15:18:36] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 230
+[2022-03-05 15:18:36] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 231
+[2022-03-05 15:18:36] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 232
+[2022-03-05 15:18:36] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 233
+[2022-03-05 15:18:36] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 234
+[2022-03-05 15:18:36] [WebServer - Server] [DEBUG] Handled HTTP GET request from [0:0:0:0:0:0:0:1] in 0.7715ms
+[2022-03-05 15:18:36] [WebServer - Server] [DEBUG] Handled HTTP GET request from [0:0:0:0:0:0:0:1] in 1.0255ms
+[2022-03-05 15:18:36] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 235
+[2022-03-05 15:18:36] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 236
+[2022-03-05 15:18:36] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 237
+[2022-03-05 15:18:36] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 238
+[2022-03-05 15:18:36] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 239
+[2022-03-05 15:18:36] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 240
+[2022-03-05 15:18:36] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 241
+[2022-03-05 15:18:36] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 242
+[2022-03-05 15:18:36] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 243
+[2022-03-05 15:18:36] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 244
+[2022-03-05 15:18:36] [General - NetworkTablesManager] [INFO] Searching for rios
+[2022-03-05 15:18:36] [General - NetworkTablesManager] [INFO] Trying 0.0.0.0
+[2022-03-05 15:18:36] [General - NetworkTablesManager] [INFO] Didn't match RIO IP
+[2022-03-05 15:18:36] [General - NetworkTablesManager] [INFO] Trying 192.168.56.1
+[2022-03-05 15:18:36] [General - NetworkTablesManager] [INFO] Didn't match RIO IP
+[2022-03-05 15:18:36] [General - NetworkTablesManager] [INFO] Trying 0.0.0.0
+[2022-03-05 15:18:36] [General - NetworkTablesManager] [INFO] Didn't match RIO IP
+[2022-03-05 15:18:36] [General - NetworkTablesManager] [INFO] Trying 0.0.0.0
+[2022-03-05 15:18:36] [General - NetworkTablesManager] [INFO] Didn't match RIO IP
+[2022-03-05 15:18:36] [General - NetworkTablesManager] [INFO] Trying 0.0.0.0
+[2022-03-05 15:18:37] [General - NetworkTablesManager] [INFO] Didn't match RIO IP
+[2022-03-05 15:18:37] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 245
+[2022-03-05 15:18:37] [General - NetworkTablesManager] [INFO] Trying 0.0.0.0
+[2022-03-05 15:18:37] [General - NetworkTablesManager] [INFO] Didn't match RIO IP
+[2022-03-05 15:18:37] [General - NetworkTablesManager] [INFO] Trying 192.168.0.26
+[2022-03-05 15:18:37] [General - NetworkTablesManager] [INFO] Didn't match RIO IP
+[2022-03-05 15:18:37] [General - NetworkTablesManager] [INFO] Looking up roboRIO-686-FRC.local
+[2022-03-05 15:18:37] [General - NetworkTablesManager] [INFO] Looking up roboRIO-686-FRC.lan
+[2022-03-05 15:18:37] [General - NetworkTablesManager] [INFO] Looking up roboRIO-686-FRC.frc-field.local
+[2022-03-05 15:18:37] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 246
+[2022-03-05 15:18:37] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 247
+[2022-03-05 15:18:37] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 248
+[2022-03-05 15:18:37] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 249
+[2022-03-05 15:18:37] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 250
+[2022-03-05 15:18:37] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 251
+[2022-03-05 15:18:37] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 252
+[2022-03-05 15:18:37] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 253
+[2022-03-05 15:18:37] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 254
+[2022-03-05 15:18:37] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 255
+[2022-03-05 15:18:37] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 256
+[2022-03-05 15:18:37] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 257
+[2022-03-05 15:18:37] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 258
+[2022-03-05 15:18:37] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 259
+[2022-03-05 15:18:37] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 260
+[2022-03-05 15:18:37] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 261
+[2022-03-05 15:18:37] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 262
+[2022-03-05 15:18:37] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 263
+[2022-03-05 15:18:37] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 264
+[2022-03-05 15:18:37] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 265
+[2022-03-05 15:18:37] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 266
+[2022-03-05 15:18:37] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 267
+[2022-03-05 15:18:37] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 268
+[2022-03-05 15:18:37] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 269
+[2022-03-05 15:18:37] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 270
+[2022-03-05 15:18:37] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 271
+[2022-03-05 15:18:37] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 272
+[2022-03-05 15:18:37] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 273
+[2022-03-05 15:18:37] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 274
+[2022-03-05 15:18:38] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 275
+[2022-03-05 15:18:38] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 276
+[2022-03-05 15:18:38] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 277
+[2022-03-05 15:18:38] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 278
+[2022-03-05 15:18:38] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 279
+[2022-03-05 15:18:38] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 280
+[2022-03-05 15:18:38] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 281
+[2022-03-05 15:18:38] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 282
+[2022-03-05 15:18:38] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 283
+[2022-03-05 15:18:38] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 284
+[2022-03-05 15:18:38] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 285
+[2022-03-05 15:18:38] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 286
+[2022-03-05 15:18:38] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 287
+[2022-03-05 15:18:38] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 288
+[2022-03-05 15:18:38] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 289
+[2022-03-05 15:18:38] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 290
+[2022-03-05 15:18:38] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 291
+[2022-03-05 15:18:38] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 292
+[2022-03-05 15:18:38] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 293
+[2022-03-05 15:18:38] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 294
+[2022-03-05 15:18:38] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 295
+[2022-03-05 15:18:38] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 296
+[2022-03-05 15:18:38] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 297
+[2022-03-05 15:18:38] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 298
+[2022-03-05 15:18:38] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 299
+[2022-03-05 15:18:38] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 300
+[2022-03-05 15:18:38] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 301
+[2022-03-05 15:18:38] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 302
+[2022-03-05 15:18:38] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 303
+[2022-03-05 15:18:38] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 304
+[2022-03-05 15:18:39] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 305
+[2022-03-05 15:18:39] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 306
+[2022-03-05 15:18:39] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 307
+[2022-03-05 15:18:39] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 308
+[2022-03-05 15:18:39] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 309
+[2022-03-05 15:18:39] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 310
+[2022-03-05 15:18:39] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 311
+[2022-03-05 15:18:39] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 312
+[2022-03-05 15:18:39] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 313
+[2022-03-05 15:18:39] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 314
+[2022-03-05 15:18:39] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 315
+[2022-03-05 15:18:39] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 316
+[2022-03-05 15:18:39] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 317
+[2022-03-05 15:18:39] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 318
+[2022-03-05 15:18:39] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 319
+[2022-03-05 15:18:39] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 320
+[2022-03-05 15:18:39] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 321
+[2022-03-05 15:18:39] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 322
+[2022-03-05 15:18:39] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 323
+[2022-03-05 15:18:39] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 324
+[2022-03-05 15:18:39] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 325
+[2022-03-05 15:18:39] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 326
+[2022-03-05 15:18:39] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 327
+[2022-03-05 15:18:39] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 328
+[2022-03-05 15:18:39] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 329
+[2022-03-05 15:18:39] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 330
+[2022-03-05 15:18:39] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 331
+[2022-03-05 15:18:39] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 332
+[2022-03-05 15:18:39] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 333
+[2022-03-05 15:18:39] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 334
+[2022-03-05 15:18:40] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 335
+[2022-03-05 15:18:40] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 336
+[2022-03-05 15:18:40] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 337
+[2022-03-05 15:18:40] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 338
+[2022-03-05 15:18:40] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 339
+[2022-03-05 15:18:40] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 340
+[2022-03-05 15:18:40] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 341
+[2022-03-05 15:18:40] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 342
+[2022-03-05 15:18:40] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 343
+[2022-03-05 15:18:40] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 344
+[2022-03-05 15:18:40] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 345
+[2022-03-05 15:18:40] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 346
+[2022-03-05 15:18:40] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 347
+[2022-03-05 15:18:40] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 348
+[2022-03-05 15:18:40] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 349
+[2022-03-05 15:18:40] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 350
+[2022-03-05 15:18:40] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 351
+[2022-03-05 15:18:40] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 352
+[2022-03-05 15:18:40] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 353
+[2022-03-05 15:18:40] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 354
+[2022-03-05 15:18:40] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 355
+[2022-03-05 15:18:40] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 356
+[2022-03-05 15:18:40] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 357
+[2022-03-05 15:18:40] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 358
+[2022-03-05 15:18:40] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 359
+[2022-03-05 15:18:40] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 360
+[2022-03-05 15:18:40] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 361
+[2022-03-05 15:18:40] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 362
+[2022-03-05 15:18:40] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 363
+[2022-03-05 15:18:41] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 364
+[2022-03-05 15:18:41] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 365
+[2022-03-05 15:18:41] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 366
+[2022-03-05 15:18:41] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 367
+[2022-03-05 15:18:41] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 368
+[2022-03-05 15:18:41] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 369
+[2022-03-05 15:18:41] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 370
+[2022-03-05 15:18:41] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 371
+[2022-03-05 15:18:41] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 372
+[2022-03-05 15:18:41] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 373
+[2022-03-05 15:18:41] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 374
+[2022-03-05 15:18:41] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 375
+[2022-03-05 15:18:41] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 376
+[2022-03-05 15:18:41] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 377
+[2022-03-05 15:18:41] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 378
+[2022-03-05 15:18:41] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 379
+[2022-03-05 15:18:41] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 380
+[2022-03-05 15:18:41] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 381
+[2022-03-05 15:18:41] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 382
+[2022-03-05 15:18:41] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 383
+[2022-03-05 15:18:41] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 384
+[2022-03-05 15:18:41] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 385
+[2022-03-05 15:18:41] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 386
+[2022-03-05 15:18:41] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 387
+[2022-03-05 15:18:41] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 388
+[2022-03-05 15:18:41] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 389
+[2022-03-05 15:18:41] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 390
+[2022-03-05 15:18:41] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 391
+[2022-03-05 15:18:41] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 392
+[2022-03-05 15:18:41] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 393
+[2022-03-05 15:18:41] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 394
+[2022-03-05 15:18:42] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 395
+[2022-03-05 15:18:42] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 396
+[2022-03-05 15:18:42] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 397
+[2022-03-05 15:18:42] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 398
+[2022-03-05 15:18:42] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 399
+[2022-03-05 15:18:42] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 400
+[2022-03-05 15:18:42] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 401
+[2022-03-05 15:18:42] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 402
+[2022-03-05 15:18:42] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 403
+[2022-03-05 15:18:42] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 404
+[2022-03-05 15:18:42] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 405
+[2022-03-05 15:18:42] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 406
+[2022-03-05 15:18:42] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 407
+[2022-03-05 15:18:42] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 408
+[2022-03-05 15:18:42] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 409
+[2022-03-05 15:18:42] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 410
+[2022-03-05 15:18:42] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 411
+[2022-03-05 15:18:42] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 412
+[2022-03-05 15:18:42] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 413
+[2022-03-05 15:18:42] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 414
+[2022-03-05 15:18:42] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 415
+[2022-03-05 15:18:42] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 416
+[2022-03-05 15:18:42] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 417
+[2022-03-05 15:18:42] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 418
+[2022-03-05 15:18:42] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 419
+[2022-03-05 15:18:42] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 420
+[2022-03-05 15:18:42] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 421
+[2022-03-05 15:18:42] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 422
+[2022-03-05 15:18:42] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 423
+[2022-03-05 15:18:43] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 424
+[2022-03-05 15:18:43] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 425
+[2022-03-05 15:18:43] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 426
+[2022-03-05 15:18:43] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 427
+[2022-03-05 15:18:43] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 428
+[2022-03-05 15:18:43] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 429
+[2022-03-05 15:18:43] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 430
+[2022-03-05 15:18:43] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 431
+[2022-03-05 15:18:43] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 432
+[2022-03-05 15:18:43] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 433
+[2022-03-05 15:18:43] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 434
+[2022-03-05 15:18:43] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 435
+[2022-03-05 15:18:43] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 436
+[2022-03-05 15:18:43] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 437
+[2022-03-05 15:18:43] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 438
+[2022-03-05 15:18:43] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 439
+[2022-03-05 15:18:43] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 440
+[2022-03-05 15:18:43] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 441
+[2022-03-05 15:18:43] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 442
+[2022-03-05 15:18:43] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 443
+[2022-03-05 15:18:43] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 444
+[2022-03-05 15:18:43] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 445
+[2022-03-05 15:18:43] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 446
+[2022-03-05 15:18:43] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 447
+[2022-03-05 15:18:43] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 448
+[2022-03-05 15:18:43] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 449
+[2022-03-05 15:18:43] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 450
+[2022-03-05 15:18:43] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 451
+[2022-03-05 15:18:43] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 452
+[2022-03-05 15:18:43] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 453
+[2022-03-05 15:18:43] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 454
+[2022-03-05 15:18:44] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 455
+[2022-03-05 15:18:44] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 456
+[2022-03-05 15:18:44] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 457
+[2022-03-05 15:18:44] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 458
+[2022-03-05 15:18:44] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 459
+[2022-03-05 15:18:44] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 460
+[2022-03-05 15:18:44] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 461
+[2022-03-05 15:18:44] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 462
+[2022-03-05 15:18:44] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 463
+[2022-03-05 15:18:44] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 464
+[2022-03-05 15:18:44] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 465
+[2022-03-05 15:18:44] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 466
+[2022-03-05 15:18:44] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 467
+[2022-03-05 15:18:44] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 468
+[2022-03-05 15:18:44] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 469
+[2022-03-05 15:18:44] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 470
+[2022-03-05 15:18:44] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 471
+[2022-03-05 15:18:44] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 472
+[2022-03-05 15:18:44] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 473
+[2022-03-05 15:18:44] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 474
+[2022-03-05 15:18:44] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 475
+[2022-03-05 15:18:44] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 476
+[2022-03-05 15:18:44] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 477
+[2022-03-05 15:18:44] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 478
+[2022-03-05 15:18:44] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 479
+[2022-03-05 15:18:44] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 480
+[2022-03-05 15:18:44] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 481
+[2022-03-05 15:18:44] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 482
+[2022-03-05 15:18:44] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 483
+[2022-03-05 15:18:45] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 484
+[2022-03-05 15:18:45] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 485
+[2022-03-05 15:18:45] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 486
+[2022-03-05 15:18:45] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 487
+[2022-03-05 15:18:45] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 488
+[2022-03-05 15:18:45] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 489
+[2022-03-05 15:18:45] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 490
+[2022-03-05 15:18:45] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 491
+[2022-03-05 15:18:45] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 492
+[2022-03-05 15:18:45] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 493
+[2022-03-05 15:18:45] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 494
+[2022-03-05 15:18:45] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 495
+[2022-03-05 15:18:45] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 496
+[2022-03-05 15:18:45] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 497
+[2022-03-05 15:18:45] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 498
+[2022-03-05 15:18:45] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 499
+[2022-03-05 15:18:45] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 500
+[2022-03-05 15:18:45] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 501
+[2022-03-05 15:18:45] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 502
+[2022-03-05 15:18:45] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 503
+[2022-03-05 15:18:45] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 504
+[2022-03-05 15:18:45] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 505
+[2022-03-05 15:18:45] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 506
+[2022-03-05 15:18:45] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 507
+[2022-03-05 15:18:45] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 508
+[2022-03-05 15:18:45] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 509
+[2022-03-05 15:18:45] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 510
+[2022-03-05 15:18:45] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 511
+[2022-03-05 15:18:45] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 512
+[2022-03-05 15:18:45] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 513
+[2022-03-05 15:18:45] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 514
+[2022-03-05 15:18:46] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 515
+[2022-03-05 15:18:46] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 516
+[2022-03-05 15:18:46] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 517
+[2022-03-05 15:18:46] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 518
+[2022-03-05 15:18:46] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 519
+[2022-03-05 15:18:46] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 520
+[2022-03-05 15:18:46] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 521
+[2022-03-05 15:18:46] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 522
+[2022-03-05 15:18:46] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 523
+[2022-03-05 15:18:46] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 524
+[2022-03-05 15:18:46] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 525
+[2022-03-05 15:18:46] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 526
+[2022-03-05 15:18:46] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 527
+[2022-03-05 15:18:46] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 528
+[2022-03-05 15:18:46] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 529
+[2022-03-05 15:18:46] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 530
+[2022-03-05 15:18:46] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 531
+[2022-03-05 15:18:46] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 532
+[2022-03-05 15:18:46] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 533
+[2022-03-05 15:18:46] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 534
+[2022-03-05 15:18:46] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 535
+[2022-03-05 15:18:46] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 536
+[2022-03-05 15:18:46] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 537
+[2022-03-05 15:18:46] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 538
+[2022-03-05 15:18:46] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 539
+[2022-03-05 15:18:46] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 540
+[2022-03-05 15:18:46] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 541
+[2022-03-05 15:18:46] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 542
+[2022-03-05 15:18:46] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 543
+[2022-03-05 15:18:47] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 544
+[2022-03-05 15:18:47] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 545
+[2022-03-05 15:18:47] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 546
+[2022-03-05 15:18:47] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 547
+[2022-03-05 15:18:47] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 548
+[2022-03-05 15:18:47] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 549
+[2022-03-05 15:18:47] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 550
+[2022-03-05 15:18:47] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 551
+[2022-03-05 15:18:47] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 552
+[2022-03-05 15:18:47] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 553
+[2022-03-05 15:18:47] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 554
+[2022-03-05 15:18:47] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 555
+[2022-03-05 15:18:47] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 556
+[2022-03-05 15:18:47] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 557
+[2022-03-05 15:18:47] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 558
+[2022-03-05 15:18:47] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 559
+[2022-03-05 15:18:47] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 560
+[2022-03-05 15:18:47] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 561
+[2022-03-05 15:18:47] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 562
+[2022-03-05 15:18:47] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 563
+[2022-03-05 15:18:47] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 564
+[2022-03-05 15:18:47] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 565
+[2022-03-05 15:18:47] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 566
+[2022-03-05 15:18:47] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 567
+[2022-03-05 15:18:47] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 568
+[2022-03-05 15:18:47] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 569
+[2022-03-05 15:18:47] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 570
+[2022-03-05 15:18:47] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 571
+[2022-03-05 15:18:47] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 572
+[2022-03-05 15:18:47] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 573
+[2022-03-05 15:18:48] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 574
+[2022-03-05 15:18:48] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 575
+[2022-03-05 15:18:48] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 576
+[2022-03-05 15:18:48] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 577
+[2022-03-05 15:18:48] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 578
+[2022-03-05 15:18:48] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 579
+[2022-03-05 15:18:48] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 580
+[2022-03-05 15:18:48] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 581
+[2022-03-05 15:18:48] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 582
+[2022-03-05 15:18:48] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 583
+[2022-03-05 15:18:48] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 584
+[2022-03-05 15:18:48] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 585
+[2022-03-05 15:18:48] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 586
+[2022-03-05 15:18:48] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 587
+[2022-03-05 15:18:48] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 588
+[2022-03-05 15:18:48] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 589
+[2022-03-05 15:18:48] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 590
+[2022-03-05 15:18:48] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 591
+[2022-03-05 15:18:48] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 592
+[2022-03-05 15:18:48] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 593
+[2022-03-05 15:18:48] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 594
+[2022-03-05 15:18:48] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 595
+[2022-03-05 15:18:48] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 596
+[2022-03-05 15:18:48] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 597
+[2022-03-05 15:18:48] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 598
+[2022-03-05 15:18:48] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 599
+[2022-03-05 15:18:48] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 600
+[2022-03-05 15:18:48] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 601
+[2022-03-05 15:18:48] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 602
+[2022-03-05 15:18:48] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 603
+[2022-03-05 15:18:49] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 604
+[2022-03-05 15:18:49] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 605
+[2022-03-05 15:18:49] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 606
+[2022-03-05 15:18:49] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 607
+[2022-03-05 15:18:49] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 608
+[2022-03-05 15:18:49] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 609
+[2022-03-05 15:18:49] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 610
+[2022-03-05 15:18:49] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 611
+[2022-03-05 15:18:49] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 612
+[2022-03-05 15:18:49] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 613
+[2022-03-05 15:18:49] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 614
+[2022-03-05 15:18:49] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 615
+[2022-03-05 15:18:49] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 616
+[2022-03-05 15:18:49] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 617
+[2022-03-05 15:18:49] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 618
+[2022-03-05 15:18:49] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 619
+[2022-03-05 15:18:49] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 620
+[2022-03-05 15:18:49] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 621
+[2022-03-05 15:18:49] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 622
+[2022-03-05 15:18:49] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 623
+[2022-03-05 15:18:49] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 624
+[2022-03-05 15:18:49] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 625
+[2022-03-05 15:18:49] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 626
+[2022-03-05 15:18:49] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 627
+[2022-03-05 15:18:49] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 628
+[2022-03-05 15:18:49] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 629
+[2022-03-05 15:18:49] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 630
+[2022-03-05 15:18:49] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 631
+[2022-03-05 15:18:49] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 632
+[2022-03-05 15:18:49] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 633
+[2022-03-05 15:18:50] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 634
+[2022-03-05 15:18:50] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 635
+[2022-03-05 15:18:50] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 636
+[2022-03-05 15:18:50] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 637
+[2022-03-05 15:18:50] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 638
+[2022-03-05 15:18:50] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 639
+[2022-03-05 15:18:50] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 640
+[2022-03-05 15:18:50] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 641
+[2022-03-05 15:18:50] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 642
+[2022-03-05 15:18:50] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 643
+[2022-03-05 15:18:50] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 644
+[2022-03-05 15:18:50] [General - ConfigManager] [DEBUG] Saving to disk...
+[2022-03-05 15:18:50] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 645
+[2022-03-05 15:18:50] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 646
+[2022-03-05 15:18:50] [General - ConfigManager] [INFO] Settings saved!
+[2022-03-05 15:18:50] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 647
+[2022-03-05 15:18:50] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 648
+[2022-03-05 15:18:50] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 649
+[2022-03-05 15:18:50] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 650
+[2022-03-05 15:18:50] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 651
+[2022-03-05 15:18:50] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 652
+[2022-03-05 15:18:50] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 653
+[2022-03-05 15:18:50] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 654
+[2022-03-05 15:18:50] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 655
+[2022-03-05 15:18:50] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 656
+[2022-03-05 15:18:50] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 657
+[2022-03-05 15:18:50] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 658
+[2022-03-05 15:18:50] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 659
+[2022-03-05 15:18:50] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 660
+[2022-03-05 15:18:50] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 661
+[2022-03-05 15:18:50] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 662
+[2022-03-05 15:18:50] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 663
+[2022-03-05 15:18:51] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 664
+[2022-03-05 15:18:51] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 665
+[2022-03-05 15:18:51] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 666
+[2022-03-05 15:18:51] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 667
+[2022-03-05 15:18:51] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 668
+[2022-03-05 15:18:51] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 669
+[2022-03-05 15:18:51] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 670
+[2022-03-05 15:18:51] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 671
+[2022-03-05 15:18:51] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 672
+[2022-03-05 15:18:51] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 673
+[2022-03-05 15:18:51] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 674
+[2022-03-05 15:18:51] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 675
+[2022-03-05 15:18:51] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 676
+[2022-03-05 15:18:51] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 677
+[2022-03-05 15:18:51] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 678
+[2022-03-05 15:18:51] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 679
+[2022-03-05 15:18:51] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 680
+[2022-03-05 15:18:51] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 681
+[2022-03-05 15:18:51] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 682
+[2022-03-05 15:18:51] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 683
+[2022-03-05 15:18:51] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 684
+[2022-03-05 15:18:51] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 685
+[2022-03-05 15:18:51] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 686
+[2022-03-05 15:18:51] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 687
+[2022-03-05 15:18:51] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 688
+[2022-03-05 15:18:51] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 689
+[2022-03-05 15:18:51] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 690
+[2022-03-05 15:18:51] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 691
+[2022-03-05 15:18:51] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 692
+[2022-03-05 15:18:51] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 693
+[2022-03-05 15:18:52] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 694
+[2022-03-05 15:18:52] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 695
+[2022-03-05 15:18:52] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 696
+[2022-03-05 15:18:52] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 697
+[2022-03-05 15:18:52] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 698
+[2022-03-05 15:18:52] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 699
+[2022-03-05 15:18:52] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 700
+[2022-03-05 15:18:52] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 701
+[2022-03-05 15:18:52] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 702
+[2022-03-05 15:18:52] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 703
+[2022-03-05 15:18:52] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 704
+[2022-03-05 15:18:52] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 705
+[2022-03-05 15:18:52] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 706
+[2022-03-05 15:18:52] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 707
+[2022-03-05 15:18:52] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 708
+[2022-03-05 15:18:52] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 709
+[2022-03-05 15:18:52] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 710
+[2022-03-05 15:18:52] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 711
+[2022-03-05 15:18:52] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 712
+[2022-03-05 15:18:52] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 713
+[2022-03-05 15:18:52] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 714
+[2022-03-05 15:18:52] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 715
+[2022-03-05 15:18:52] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 716
+[2022-03-05 15:18:52] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 717
+[2022-03-05 15:18:52] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 718
+[2022-03-05 15:18:52] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 719
+[2022-03-05 15:18:52] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 720
+[2022-03-05 15:18:52] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 721
+[2022-03-05 15:18:52] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 722
+[2022-03-05 15:18:52] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 723
+[2022-03-05 15:18:53] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 724
+[2022-03-05 15:18:53] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 725
+[2022-03-05 15:18:53] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 726
+[2022-03-05 15:18:53] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 727
+[2022-03-05 15:18:53] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 728
+[2022-03-05 15:18:53] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 729
+[2022-03-05 15:18:53] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 730
+[2022-03-05 15:18:53] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 731
+[2022-03-05 15:18:53] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 732
+[2022-03-05 15:18:53] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 733
+[2022-03-05 15:18:53] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 734
+[2022-03-05 15:18:53] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 735
+[2022-03-05 15:18:53] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 736
+[2022-03-05 15:18:53] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 737
+[2022-03-05 15:18:53] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 738
+[2022-03-05 15:18:53] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 739
+[2022-03-05 15:18:53] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 740
+[2022-03-05 15:18:53] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 741
+[2022-03-05 15:18:53] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 742
+[2022-03-05 15:18:53] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 743
+[2022-03-05 15:18:53] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 744
+[2022-03-05 15:18:53] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 745
+[2022-03-05 15:18:53] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 746
+[2022-03-05 15:18:53] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 747
+[2022-03-05 15:18:53] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 748
+[2022-03-05 15:18:53] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 749
+[2022-03-05 15:18:53] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 750
+[2022-03-05 15:18:53] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 751
+[2022-03-05 15:18:53] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 752
+[2022-03-05 15:18:53] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 753
+[2022-03-05 15:18:54] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 754
+[2022-03-05 15:18:54] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 755
+[2022-03-05 15:18:54] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 756
+[2022-03-05 15:18:54] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 757
+[2022-03-05 15:18:54] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 758
+[2022-03-05 15:18:54] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 759
+[2022-03-05 15:18:54] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 760
+[2022-03-05 15:18:54] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 761
+[2022-03-05 15:18:54] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 762
+[2022-03-05 15:18:54] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 763
+[2022-03-05 15:18:54] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 764
+[2022-03-05 15:18:54] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 765
+[2022-03-05 15:18:54] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 766
+[2022-03-05 15:18:54] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 767
+[2022-03-05 15:18:54] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 768
+[2022-03-05 15:18:54] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 769
+[2022-03-05 15:18:54] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 770
+[2022-03-05 15:18:54] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 771
+[2022-03-05 15:18:54] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 772
+[2022-03-05 15:18:54] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 773
+[2022-03-05 15:18:54] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 774
+[2022-03-05 15:18:54] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 775
+[2022-03-05 15:18:54] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 776
+[2022-03-05 15:18:54] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 777
+[2022-03-05 15:18:54] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 778
+[2022-03-05 15:18:54] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 779
+[2022-03-05 15:18:54] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 780
+[2022-03-05 15:18:54] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 781
+[2022-03-05 15:18:54] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 782
+[2022-03-05 15:18:54] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 783
+[2022-03-05 15:18:55] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 784
+[2022-03-05 15:18:55] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 785
+[2022-03-05 15:18:55] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 786
+[2022-03-05 15:18:55] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 787
+[2022-03-05 15:18:55] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 788
+[2022-03-05 15:18:55] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 789
+[2022-03-05 15:18:55] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 790
+[2022-03-05 15:18:55] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 791
+[2022-03-05 15:18:55] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 792
+[2022-03-05 15:18:55] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 793
+[2022-03-05 15:18:55] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 794
+[2022-03-05 15:18:55] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 795
+[2022-03-05 15:18:55] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 796
+[2022-03-05 15:18:55] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 797
+[2022-03-05 15:18:55] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 798
+[2022-03-05 15:18:55] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 799
+[2022-03-05 15:18:55] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 800
+[2022-03-05 15:18:55] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 801
+[2022-03-05 15:18:55] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 802
+[2022-03-05 15:18:55] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 803
+[2022-03-05 15:18:55] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 804
+[2022-03-05 15:18:55] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 805
+[2022-03-05 15:18:55] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 806
+[2022-03-05 15:18:55] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 807
+[2022-03-05 15:18:55] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 808
+[2022-03-05 15:18:55] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 809
+[2022-03-05 15:18:55] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 810
+[2022-03-05 15:18:55] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 811
+[2022-03-05 15:18:55] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 812
+[2022-03-05 15:18:55] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 813
+[2022-03-05 15:18:56] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 814
+[2022-03-05 15:18:56] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 815
+[2022-03-05 15:18:56] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 816
+[2022-03-05 15:18:56] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 817
+[2022-03-05 15:18:56] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 818
+[2022-03-05 15:18:56] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 819
+[2022-03-05 15:18:56] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 820
+[2022-03-05 15:18:56] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 821
+[2022-03-05 15:18:56] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 822
+[2022-03-05 15:18:56] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 823
+[2022-03-05 15:18:56] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 824
+[2022-03-05 15:18:56] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 825
+[2022-03-05 15:18:56] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 826
+[2022-03-05 15:18:56] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 827
+[2022-03-05 15:18:56] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 828
+[2022-03-05 15:18:56] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 829
+[2022-03-05 15:18:56] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 830
+[2022-03-05 15:18:56] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 831
+[2022-03-05 15:18:56] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 832
+[2022-03-05 15:18:56] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 833
+[2022-03-05 15:18:56] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 834
+[2022-03-05 15:18:56] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 835
+[2022-03-05 15:18:56] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 836
+[2022-03-05 15:18:56] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 837
+[2022-03-05 15:18:56] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 838
+[2022-03-05 15:18:56] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 839
+[2022-03-05 15:18:56] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 840
+[2022-03-05 15:18:56] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 841
+[2022-03-05 15:18:56] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 842
+[2022-03-05 15:18:56] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 843
+[2022-03-05 15:18:57] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 844
+[2022-03-05 15:18:57] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 845
+[2022-03-05 15:18:57] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 846
+[2022-03-05 15:18:57] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 847
+[2022-03-05 15:18:57] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 848
+[2022-03-05 15:18:57] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 849
+[2022-03-05 15:18:57] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 850
+[2022-03-05 15:18:57] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 851
+[2022-03-05 15:18:57] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 852
+[2022-03-05 15:18:57] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 853
+[2022-03-05 15:18:57] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 854
+[2022-03-05 15:18:57] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 855
+[2022-03-05 15:18:57] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 856
+[2022-03-05 15:18:57] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 857
+[2022-03-05 15:18:57] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 858
+[2022-03-05 15:18:57] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 859
+[2022-03-05 15:18:57] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 860
+[2022-03-05 15:18:57] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 861
+[2022-03-05 15:18:57] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 862
+[2022-03-05 15:18:57] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 863
+[2022-03-05 15:18:57] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 864
+[2022-03-05 15:18:57] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 865
+[2022-03-05 15:18:57] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 866
+[2022-03-05 15:18:57] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 867
+[2022-03-05 15:18:57] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 868
+[2022-03-05 15:18:57] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 869
+[2022-03-05 15:18:57] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 870
+[2022-03-05 15:18:57] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 871
+[2022-03-05 15:18:57] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 872
+[2022-03-05 15:18:57] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 873
+[2022-03-05 15:18:58] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 874
+[2022-03-05 15:18:58] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 875
+[2022-03-05 15:18:58] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 876
+[2022-03-05 15:18:58] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 877
+[2022-03-05 15:18:58] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 878
+[2022-03-05 15:18:58] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 879
+[2022-03-05 15:18:58] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 880
+[2022-03-05 15:18:58] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 881
+[2022-03-05 15:18:58] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 882
+[2022-03-05 15:18:58] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 883
+[2022-03-05 15:18:58] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 884
+[2022-03-05 15:18:58] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 885
+[2022-03-05 15:18:58] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 886
+[2022-03-05 15:18:58] [General - ConfigManager] [DEBUG] Saving to disk...
+[2022-03-05 15:18:58] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 887
+[2022-03-05 15:18:58] [General - ConfigManager] [INFO] Settings saved!
+[2022-03-05 15:18:58] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 888
+[2022-03-05 15:18:58] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 889
+[2022-03-05 15:18:58] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 890
+[2022-03-05 15:18:58] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 891
+[2022-03-05 15:18:58] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 892
+[2022-03-05 15:18:58] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 893
+[2022-03-05 15:18:58] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 894
+[2022-03-05 15:18:58] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 895
+[2022-03-05 15:18:58] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 896
+[2022-03-05 15:18:58] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 897
+[2022-03-05 15:18:58] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 898
+[2022-03-05 15:18:58] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 899
+[2022-03-05 15:18:58] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 900
+[2022-03-05 15:18:58] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 901
+[2022-03-05 15:18:58] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 902
+[2022-03-05 15:18:59] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 903
+[2022-03-05 15:18:59] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 904
+[2022-03-05 15:18:59] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 905
+[2022-03-05 15:18:59] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 906
+[2022-03-05 15:18:59] [General - MetricsPublisher] [DEBUG] Ignoring metrics on non-Pi devices
+[2022-03-05 15:18:59] [WebServer - Server] [DEBUG] Handled HTTP POST request from [0:0:0:0:0:0:0:1] in 3.3823ms
+[2022-03-05 15:18:59] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 907
+[2022-03-05 15:18:59] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 908
+[2022-03-05 15:18:59] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 909
+[2022-03-05 15:18:59] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 910
+[2022-03-05 15:18:59] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 911
+[2022-03-05 15:18:59] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 912
+[2022-03-05 15:18:59] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 913
+[2022-03-05 15:18:59] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 914
+[2022-03-05 15:18:59] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 915
+[2022-03-05 15:18:59] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 916
+[2022-03-05 15:18:59] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 917
+[2022-03-05 15:18:59] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 918
+[2022-03-05 15:18:59] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 919
+[2022-03-05 15:18:59] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 920
+[2022-03-05 15:18:59] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 921
+[2022-03-05 15:18:59] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 922
+[2022-03-05 15:18:59] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 923
+[2022-03-05 15:18:59] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 924
+[2022-03-05 15:18:59] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 925
+[2022-03-05 15:18:59] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 926
+[2022-03-05 15:18:59] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 927
+[2022-03-05 15:18:59] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 928
+[2022-03-05 15:18:59] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 929
+[2022-03-05 15:18:59] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 930
+[2022-03-05 15:18:59] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 931
+[2022-03-05 15:19:00] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 932
+[2022-03-05 15:19:00] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 933
+[2022-03-05 15:19:00] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 934
+[2022-03-05 15:19:00] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 935
+[2022-03-05 15:19:00] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 936
+[2022-03-05 15:19:00] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 937
+[2022-03-05 15:19:00] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 938
+[2022-03-05 15:19:00] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 939
+[2022-03-05 15:19:00] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 940
+[2022-03-05 15:19:00] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 941
+[2022-03-05 15:19:00] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 942
+[2022-03-05 15:19:00] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 943
+[2022-03-05 15:19:00] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 944
+[2022-03-05 15:19:00] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 945
+[2022-03-05 15:19:00] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 946
+[2022-03-05 15:19:00] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 947
+[2022-03-05 15:19:00] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 948
+[2022-03-05 15:19:00] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 949
+[2022-03-05 15:19:00] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 950
+[2022-03-05 15:19:00] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 951
+[2022-03-05 15:19:00] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 952
+[2022-03-05 15:19:00] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 953
+[2022-03-05 15:19:00] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 954
+[2022-03-05 15:19:00] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 955
+[2022-03-05 15:19:00] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 956
+[2022-03-05 15:19:00] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 957
+[2022-03-05 15:19:01] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 958
+[2022-03-05 15:19:01] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 959
+[2022-03-05 15:19:01] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 960
+[2022-03-05 15:19:01] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 961
+[2022-03-05 15:19:01] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 962
+[2022-03-05 15:19:01] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 963
+[2022-03-05 15:19:01] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 964
+[2022-03-05 15:19:01] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 965
+[2022-03-05 15:19:01] [WebServer - Server] [DEBUG] Handled HTTP GET request from [0:0:0:0:0:0:0:1] in 8.9157ms
+[2022-03-05 15:19:01] [WebServer - Server] [DEBUG] Handled HTTP GET request from [0:0:0:0:0:0:0:1] in 1.8502ms
+[2022-03-05 15:19:01] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 966
+[2022-03-05 15:19:01] [WebServer - Server] [DEBUG] Handled HTTP GET request from [0:0:0:0:0:0:0:1] in 1.3986ms
+[2022-03-05 15:19:01] [WebServer - Server] [DEBUG] Handled HTTP GET request from [0:0:0:0:0:0:0:1] in 7.211ms
+[2022-03-05 15:19:01] [WebServer - Server] [DEBUG] Handled HTTP GET request from [0:0:0:0:0:0:0:1] in 2.1427ms
+[2022-03-05 15:19:01] [WebServer - Server] [DEBUG] Handled HTTP GET request from [0:0:0:0:0:0:0:1] in 13.9862ms
+[2022-03-05 15:19:01] [WebServer - Server] [DEBUG] Handled HTTP GET request from [0:0:0:0:0:0:0:1] in 3.375ms
+[2022-03-05 15:19:01] [WebServer - Server] [DEBUG] Handled HTTP GET request from [0:0:0:0:0:0:0:1] in 2.4808ms
+[2022-03-05 15:19:01] [WebServer - Server] [DEBUG] Handled HTTP GET request from [0:0:0:0:0:0:0:1] in 10.4228ms
+[2022-03-05 15:19:01] [WebServer - Server] [DEBUG] Handled HTTP GET request from [0:0:0:0:0:0:0:1] in 22.181ms
+[2022-03-05 15:19:01] [WebServer - Server] [DEBUG] Handled HTTP GET request from [0:0:0:0:0:0:0:1] in 1.1771ms
+[2022-03-05 15:19:01] [WebServer - Server] [DEBUG] Handled HTTP GET request from [0:0:0:0:0:0:0:1] in 2.3752ms
+[2022-03-05 15:19:01] [WebServer - Server] [DEBUG] Handled HTTP GET request from [0:0:0:0:0:0:0:1] in 1.7932ms
+[2022-03-05 15:19:01] [WebServer - Server] [DEBUG] Handled HTTP GET request from [0:0:0:0:0:0:0:1] in 20.9894ms
+[2022-03-05 15:19:01] [WebServer - Server] [DEBUG] Handled HTTP GET request from [0:0:0:0:0:0:0:1] in 1.1664ms
+[2022-03-05 15:19:01] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 967
+[2022-03-05 15:19:01] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 968
+[2022-03-05 15:19:01] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 969
+[2022-03-05 15:19:01] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 970
+[2022-03-05 15:19:01] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 971
+[2022-03-05 15:19:01] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 972
+[2022-03-05 15:19:01] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 973
+[2022-03-05 15:19:01] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 974
+[2022-03-05 15:19:01] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 975
+[2022-03-05 15:19:01] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 976
+[2022-03-05 15:19:02] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 977
+[2022-03-05 15:19:02] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 978
+[2022-03-05 15:19:02] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 979
+[2022-03-05 15:19:02] [General - MetricsPublisher] [DEBUG] Ignoring metrics on non-Pi devices
+[2022-03-05 15:19:02] [WebServer - Server] [DEBUG] Handled HTTP POST request from [0:0:0:0:0:0:0:1] in 0.4556ms
+[2022-03-05 15:19:02] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 980
+[2022-03-05 15:19:02] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 981
+[2022-03-05 15:19:02] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 982
+[2022-03-05 15:19:02] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 983
+[2022-03-05 15:19:02] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 984
+[2022-03-05 15:19:02] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 985
+[2022-03-05 15:19:02] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 986
+[2022-03-05 15:19:02] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 987
+[2022-03-05 15:19:02] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 988
+[2022-03-05 15:19:02] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 989
+[2022-03-05 15:19:02] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 990
+[2022-03-05 15:19:02] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 991
+[2022-03-05 15:19:02] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 992
+[2022-03-05 15:19:02] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 993
+[2022-03-05 15:19:02] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 994
+[2022-03-05 15:19:02] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 995
+[2022-03-05 15:19:02] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 996
+[2022-03-05 15:19:02] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 997
+[2022-03-05 15:19:02] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 998
+[2022-03-05 15:19:02] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 999
+[2022-03-05 15:19:02] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1000
+[2022-03-05 15:19:02] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1001
+[2022-03-05 15:19:02] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1002
+[2022-03-05 15:19:02] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1003
+[2022-03-05 15:19:02] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1004
+[2022-03-05 15:19:02] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1005
+[2022-03-05 15:19:02] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1006
+[2022-03-05 15:19:02] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1007
+[2022-03-05 15:19:03] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1008
+[2022-03-05 15:19:03] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1009
+[2022-03-05 15:19:03] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1010
+[2022-03-05 15:19:03] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1011
+[2022-03-05 15:19:03] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1012
+[2022-03-05 15:19:03] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1013
+[2022-03-05 15:19:03] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1014
+[2022-03-05 15:19:03] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1015
+[2022-03-05 15:19:03] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1016
+[2022-03-05 15:19:03] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1017
+[2022-03-05 15:19:03] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1018
+[2022-03-05 15:19:03] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1019
+[2022-03-05 15:19:03] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1020
+[2022-03-05 15:19:03] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1021
+[2022-03-05 15:19:03] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1022
+[2022-03-05 15:19:03] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1023
+[2022-03-05 15:19:03] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1024
+[2022-03-05 15:19:03] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1025
+[2022-03-05 15:19:03] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1026
+[2022-03-05 15:19:03] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1027
+[2022-03-05 15:19:03] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1028
+[2022-03-05 15:19:03] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1029
+[2022-03-05 15:19:03] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1030
+[2022-03-05 15:19:03] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1031
+[2022-03-05 15:19:03] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1032
+[2022-03-05 15:19:03] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1033
+[2022-03-05 15:19:03] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1034
+[2022-03-05 15:19:03] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1035
+[2022-03-05 15:19:03] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1036
+[2022-03-05 15:19:03] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1037
+[2022-03-05 15:19:04] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1038
+[2022-03-05 15:19:04] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1039
+[2022-03-05 15:19:04] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1040
+[2022-03-05 15:19:04] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1041
+[2022-03-05 15:19:04] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1042
+[2022-03-05 15:19:04] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1043
+[2022-03-05 15:19:04] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1044
+[2022-03-05 15:19:04] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1045
+[2022-03-05 15:19:04] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1046
+[2022-03-05 15:19:04] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1047
+[2022-03-05 15:19:04] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1048
+[2022-03-05 15:19:04] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1049
+[2022-03-05 15:19:04] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1050
+[2022-03-05 15:19:04] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1051
+[2022-03-05 15:19:04] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1052
+[2022-03-05 15:19:04] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1053
+[2022-03-05 15:19:04] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1054
+[2022-03-05 15:19:04] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1055
+[2022-03-05 15:19:04] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1056
+[2022-03-05 15:19:04] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1057
+[2022-03-05 15:19:04] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1058
+[2022-03-05 15:19:04] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1059
+[2022-03-05 15:19:04] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1060
+[2022-03-05 15:19:04] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1061
+[2022-03-05 15:19:04] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1062
+[2022-03-05 15:19:04] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1063
+[2022-03-05 15:19:04] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1064
+[2022-03-05 15:19:04] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1065
+[2022-03-05 15:19:04] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1066
+[2022-03-05 15:19:04] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1067
+[2022-03-05 15:19:05] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1068
+[2022-03-05 15:19:05] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1069
+[2022-03-05 15:19:05] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1070
+[2022-03-05 15:19:05] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1071
+[2022-03-05 15:19:05] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1072
+[2022-03-05 15:19:05] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1073
+[2022-03-05 15:19:05] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1074
+[2022-03-05 15:19:05] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1075
+[2022-03-05 15:19:05] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1076
+[2022-03-05 15:19:05] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1077
+[2022-03-05 15:19:05] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1078
+[2022-03-05 15:19:05] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1079
+[2022-03-05 15:19:05] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1080
+[2022-03-05 15:19:05] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1081
+[2022-03-05 15:19:05] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1082
+[2022-03-05 15:19:05] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1083
+[2022-03-05 15:19:05] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1084
+[2022-03-05 15:19:05] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1085
+[2022-03-05 15:19:05] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1086
+[2022-03-05 15:19:05] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1087
+[2022-03-05 15:19:05] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1088
+[2022-03-05 15:19:05] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1089
+[2022-03-05 15:19:05] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1090
+[2022-03-05 15:19:05] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1091
+[2022-03-05 15:19:05] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1092
+[2022-03-05 15:19:05] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1093
+[2022-03-05 15:19:05] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1094
+[2022-03-05 15:19:05] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1095
+[2022-03-05 15:19:05] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1096
+[2022-03-05 15:19:05] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1097
+[2022-03-05 15:19:06] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1098
+[2022-03-05 15:19:06] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1099
+[2022-03-05 15:19:06] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1100
+[2022-03-05 15:19:06] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1101
+[2022-03-05 15:19:06] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1102
+[2022-03-05 15:19:06] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1103
+[2022-03-05 15:19:06] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1104
+[2022-03-05 15:19:06] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1105
+[2022-03-05 15:19:06] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1106
+[2022-03-05 15:19:06] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1107
+[2022-03-05 15:19:06] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1108
+[2022-03-05 15:19:06] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1109
+[2022-03-05 15:19:06] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1110
+[2022-03-05 15:19:06] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1111
+[2022-03-05 15:19:06] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1112
+[2022-03-05 15:19:06] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1113
+[2022-03-05 15:19:06] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1114
+[2022-03-05 15:19:06] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1115
+[2022-03-05 15:19:06] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1116
+[2022-03-05 15:19:06] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1117
+[2022-03-05 15:19:06] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1118
+[2022-03-05 15:19:06] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1119
+[2022-03-05 15:19:06] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1120
+[2022-03-05 15:19:06] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1121
+[2022-03-05 15:19:06] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1122
+[2022-03-05 15:19:06] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1123
+[2022-03-05 15:19:06] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1124
+[2022-03-05 15:19:06] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1125
+[2022-03-05 15:19:07] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1126
+[2022-03-05 15:19:07] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1127
+[2022-03-05 15:19:07] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1128
+[2022-03-05 15:19:07] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1129
+[2022-03-05 15:19:07] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1130
+[2022-03-05 15:19:07] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1131
+[2022-03-05 15:19:07] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1132
+[2022-03-05 15:19:07] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1133
+[2022-03-05 15:19:07] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1134
+[2022-03-05 15:19:07] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1135
+[2022-03-05 15:19:07] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1136
+[2022-03-05 15:19:07] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1137
+[2022-03-05 15:19:07] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1138
+[2022-03-05 15:19:07] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1139
+[2022-03-05 15:19:07] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1140
+[2022-03-05 15:19:07] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1141
+[2022-03-05 15:19:07] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1142
+[2022-03-05 15:19:07] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1143
+[2022-03-05 15:19:07] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1144
+[2022-03-05 15:19:07] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1145
+[2022-03-05 15:19:07] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1146
+[2022-03-05 15:19:07] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1147
+[2022-03-05 15:19:07] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1148
+[2022-03-05 15:19:07] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1149
+[2022-03-05 15:19:07] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1150
+[2022-03-05 15:19:07] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1151
+[2022-03-05 15:19:07] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1152
+[2022-03-05 15:19:07] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1153
+[2022-03-05 15:19:08] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1154
+[2022-03-05 15:19:08] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1155
+[2022-03-05 15:19:08] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1156
+[2022-03-05 15:19:08] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1157
+[2022-03-05 15:19:08] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1158
+[2022-03-05 15:19:08] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1159
+[2022-03-05 15:19:08] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1160
+[2022-03-05 15:19:08] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1161
+[2022-03-05 15:19:08] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1162
+[2022-03-05 15:19:08] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1163
+[2022-03-05 15:19:08] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1164
+[2022-03-05 15:19:08] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1165
+[2022-03-05 15:19:08] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1166
+[2022-03-05 15:19:08] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1167
+[2022-03-05 15:19:08] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1168
+[2022-03-05 15:19:08] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1169
+[2022-03-05 15:19:08] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1170
+[2022-03-05 15:19:08] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1171
+[2022-03-05 15:19:08] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1172
+[2022-03-05 15:19:08] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1173
+[2022-03-05 15:19:08] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1174
+[2022-03-05 15:19:08] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1175
+[2022-03-05 15:19:08] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1176
+[2022-03-05 15:19:08] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1177
+[2022-03-05 15:19:08] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1178
+[2022-03-05 15:19:08] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1179
+[2022-03-05 15:19:08] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1180
+[2022-03-05 15:19:08] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1181
+[2022-03-05 15:19:08] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1182
+[2022-03-05 15:19:09] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1183
+[2022-03-05 15:19:09] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1184
+[2022-03-05 15:19:09] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1185
+[2022-03-05 15:19:09] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1186
+[2022-03-05 15:19:09] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1187
+[2022-03-05 15:19:09] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1188
+[2022-03-05 15:19:09] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1189
+[2022-03-05 15:19:09] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1190
+[2022-03-05 15:19:09] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1191
+[2022-03-05 15:19:09] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1192
+[2022-03-05 15:19:09] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1193
+[2022-03-05 15:19:09] [WebServer - RequestHandler] [DEBUG] Processing uploaded settings zip photonvision-settings.zip
+[2022-03-05 15:19:09] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1194
+[2022-03-05 15:19:09] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1195
+[2022-03-05 15:19:09] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1196
+[2022-03-05 15:19:09] [General - FileUtils] [ERROR] Exception deleting file "photonvision_config\logs\photonvision-2022-3-5_03-18-26.log"!
+[2022-03-05 15:19:09] [General - FileUtils] [ERROR] java.nio.file.FileSystemException: photonvision_config\logs\photonvision-2022-3-5_03-18-26.log: The process cannot access the file because it is being used by another process
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:275)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.delete(AbstractFileSystemProvider.java:105)
+	at java.base/java.nio.file.Files.delete(Files.java:1152)
+	at org.photonvision.common.util.file.FileUtils.deleteFile(FileUtils.java:64)
+	at org.photonvision.common.util.file.FileUtils.lambda$deleteDirectory$0(FileUtils.java:53)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.stream.SortedOps$RefSortingSink.end(SortedOps.java:395)
+	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:258)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:510)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at org.photonvision.common.util.file.FileUtils.deleteDirectory(FileUtils.java:53)
+	at org.photonvision.common.configuration.ConfigManager.saveUploadedSettingsZip(ConfigManager.java:72)
+	at org.photonvision.server.RequestHandler.onSettingUpload(RequestHandler.java:73)
+	at io.javalin.core.security.SecurityUtil.noopAccessManager(SecurityUtil.kt:20)
+	at io.javalin.http.JavalinServlet.addHandler$lambda-5(JavalinServlet.kt:113)
+	at io.javalin.http.JavalinServlet$service$tryBeforeAndEndpointHandlers$1.invoke(JavalinServlet.kt:44)
+	at io.javalin.http.JavalinServlet$service$tryBeforeAndEndpointHandlers$1.invoke(JavalinServlet.kt:39)
+	at io.javalin.http.JavalinServlet.service$tryWithExceptionMapper(JavalinServlet.kt:129)
+	at io.javalin.http.JavalinServlet.service$tryBeforeAndEndpointHandlers(JavalinServlet.kt:39)
+	at io.javalin.http.JavalinServlet.service(JavalinServlet.kt:87)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at io.javalin.jetty.JavalinJettyServlet.service(JavalinJettyServlet.kt:58)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:799)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:550)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:233)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1624)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:233)
+	at io.javalin.jetty.JettyServer$start$wsAndHttpHandler$1.doHandle(JettyServer.kt:52)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:188)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:501)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1594)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:186)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1349)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.StatisticsHandler.handle(StatisticsHandler.java:179)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.Server.handle(Server.java:516)
+	at org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:400)
+	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:645)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:392)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:277)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:105)
+	at org.eclipse.jetty.io.ChannelEndPoint$1.run(ChannelEndPoint.java:104)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:338)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:315)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:173)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:131)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:409)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:883)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1034)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+[2022-03-05 15:19:09] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1197
+[2022-03-05 15:19:09] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1198
+[2022-03-05 15:19:09] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1199
+[2022-03-05 15:19:09] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1200
+[2022-03-05 15:19:09] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1201
+[2022-03-05 15:19:09] [VisionModule - VisionRunner - USBFrameProvider - opencv_HP_HD_Webcam] [ERROR] Exception on loop 1202
+[2022-03-05 15:19:09] [General - ConfigManager] [INFO] Copied settings successfully!
+[2022-03-05 15:19:09] [WebServer - RequestHandler] [INFO] Settings uploaded, going down for restart.
+[2022-03-05 15:19:09] [WebServer - Server] [DEBUG] Handled HTTP POST request from [0:0:0:0:0:0:0:1] in 395.7293ms
+[2022-03-05 15:19:09] [General - HardwareManager] [INFO] Shutting down LEDs...

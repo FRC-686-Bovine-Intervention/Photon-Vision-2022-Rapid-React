@@ -1,0 +1,78 @@
+[2021-01-11 23:58:07] [General - Main] [INFO] Logging initialized in debug mode.
+[2021-01-11 23:58:07] [General - ShellExec] [DEBUG] Executing "id -u"
+[2021-01-11 23:58:08] [General - ShellExec] [DEBUG] Got exit code 0
+[2021-01-11 23:58:08] [General - ShellExec] [DEBUG] Executing "cat /proc/device-tree/model"
+[2021-01-11 23:58:08] [General - ShellExec] [DEBUG] Got exit code 0
+[2021-01-11 23:58:08] [General - Main] [INFO] Starting PhotonVision version v2022.1.5 on Linux Raspbian (Pi COMPUTE_MODULE_3)
+[2021-01-11 23:58:09] [Camera - PicamJNI] [INFO] Successfully loaded libpicam shared object
+[2021-01-11 23:58:09] [General - Main] [INFO] Native libraries loaded.
+[2021-01-11 23:58:09] [General - ConfigManager] [INFO] Loading settings...
+[2021-01-11 23:58:09] [General - ConfigManager] [INFO] Hardware config does not exist! Loading defaults
+[2021-01-11 23:58:11] [Camera - CameraConfiguration] [DEBUG] Creating camera configuration for UsbCameraUSB_Camera (AKA USB_Camera) at \\?\usb#vid_0458&pid_708c&mi_00#6&29a4ead7&0&0000#{e5323777-f976-4f5b-9b55-b94699c46e44}\global
+[2021-01-11 23:58:11] [Camera - CameraConfiguration] [DEBUG] Creating camera configuration for ZeroCopyPicammmal service 16.1 (AKA mmal_service_16.1) at /dev/video0
+[2021-01-11 23:58:11] [Camera - CameraConfiguration] [ERROR] Could not insert two pipelines at same index! Changing to 2
+[2021-01-11 23:58:11] [Camera - CameraConfiguration] [ERROR] Could not insert two pipelines at same index! Changing to 3
+[2021-01-11 23:58:12] [Camera - CameraConfiguration] [DEBUG] Creating camera configuration for UsbCameraHP HD Webcam (AKA HP_HD_Webcam) at \\?\usb#vid_05c8&pid_0369&mi_00#6&342fd1bb&0&0000#{e5323777-f976-4f5b-9b55-b94699c46e44}\global
+[2021-01-11 23:58:12] [General - NetworkManager] [INFO] Setting DHCP with team team 686
+[2021-01-11 23:58:12] [General - ShellExec] [DEBUG] Executing "cat /etc/hostname | tr -d " \t\n\r""
+[2021-01-11 23:58:12] [General - ShellExec] [DEBUG] Got exit code 0
+[2021-01-11 23:58:12] [General - ShellExec] [DEBUG] Executing "echo photonvision > /etc/hostname"
+[2021-01-11 23:58:12] [General - ShellExec] [DEBUG] Got exit code 0
+[2021-01-11 23:58:12] [General - ShellExec] [DEBUG] Executing "hostnamectl set-hostname photonvision"
+[2021-01-11 23:58:12] [General - ShellExec] [DEBUG] Got exit code 0
+[2021-01-11 23:58:12] [General - ShellExec] [DEBUG] Executing "sed -i "s/127.0.1.1.*photonvision/127.0.1.1\tphotonvision/g" /etc/hosts"
+[2021-01-11 23:58:12] [General - ShellExec] [DEBUG] Got exit code 0
+[2021-01-11 23:58:12] [General - ShellExec] [DEBUG] Executing "sudo service avahi-daemon restart"
+[2021-01-11 23:58:12] [General - ShellExec] [DEBUG] Got exit code 0
+[2021-01-11 23:58:12] [General - NetworkManager] [INFO] Set hostname to photonvision
+[2021-01-11 23:58:12] [General - ShellExec] [DEBUG] Executing "dhclient eth0"
+[2021-01-11 23:58:12] [General - ShellExec] [DEBUG] Got exit code 0
+[2021-01-11 23:58:12] [General - NetworkTablesManager] [INFO] Starting NT Client
+[2021-01-11 23:58:12] [General - NetworkTablesManager] [ERROR] [NetworkTablesManager] Could not connect to the robot! Will retry in the background...
+[2021-01-11 23:58:13] [General - NetworkTablesManager] [INFO] NT Connected!
+[2021-01-11 23:58:13] [General - ScriptManager] [INFO] Queued event: kNTConnected
+[2021-01-11 23:58:13] [Camera - VisionSourceManager] [DEBUG] Matching 2 new cameras!
+[2021-01-11 23:58:13] [Camera - VisionSourceManager] [INFO] Adding local video device - "USB_Camera" at "/dev/video0"
+[2021-01-11 23:58:13] [Camera - VisionSourceManager] [INFO] Adding local video device - "mmal service 16.1" at "/dev/video2"
+[2021-01-11 23:58:13] [Camera - VisionSourceManager] [DEBUG] Trying to match 2 unmatched configs...
+[2021-01-11 23:58:13] [Camera - VisionSourceManager] [DEBUG] Trying to find a match for loaded camera HP HD Webcam with path \\?\usb#vid_05c8&pid_0369&mi_00#6&342fd1bb&0&0000#{e5323777-f976-4f5b-9b55-b94699c46e44}\global
+[2021-01-11 23:58:13] [Camera - VisionSourceManager] [DEBUG] Failed to match by path and name, falling back to name-only match
+[2021-01-11 23:58:13] [Camera - VisionSourceManager] [DEBUG] Trying to find a match for loaded camera USB_Camera with path \\?\usb#vid_0458&pid_708c&mi_00#6&29a4ead7&0&0000#{e5323777-f976-4f5b-9b55-b94699c46e44}\global
+[2021-01-11 23:58:13] [Camera - VisionSourceManager] [DEBUG] Failed to match by path and name, falling back to name-only match
+[2021-01-11 23:58:13] [Camera - VisionSourceManager] [DEBUG] Matched the config for USB_Camera to a physical camera!
+[2021-01-11 23:58:13] [Camera - VisionSourceManager] [DEBUG] Updating path config from \\?\usb#vid_0458&pid_708c&mi_00#6&29a4ead7&0&0000#{e5323777-f976-4f5b-9b55-b94699c46e44}\global to /dev/video0
+[2021-01-11 23:58:13] [Camera - VisionSourceManager] [DEBUG] Trying to find a match for loaded camera mmal service 16.1 with path /dev/video0
+[2021-01-11 23:58:13] [Camera - VisionSourceManager] [DEBUG] Failed to match by path and name, falling back to name-only match
+[2021-01-11 23:58:13] [Camera - VisionSourceManager] [DEBUG] Matched the config for mmal service 16.1 to a physical camera!
+[2021-01-11 23:58:13] [Camera - VisionSourceManager] [DEBUG] Updating path config from /dev/video0 to /dev/video2
+[2021-01-11 23:58:13] [Camera - VisionSourceManager] [DEBUG] After matching loaded configs 0 cameras were unmatched.
+[2021-01-11 23:58:13] [Camera - VisionSourceManager] [DEBUG] Matched or created 2 camera configs!
+[2021-01-11 23:58:13] [Camera - VisionSourceManager] [WARN] After matching, 1 configs remained unmatched. Is your camera disconnected?
+[2021-01-11 23:58:13] [Camera - VisionSourceManager] [WARN] Unloaded configs: HP_HD_Webcam
+[2021-01-11 23:58:13] [General - ConfigManager] [DEBUG] Saving to disk...
+[2021-01-11 23:58:13] [Camera - VisionSourceManager] [DEBUG] Matched config for camera "USBFrameProvider - opencv_USB_Camera" and loaded 1 pipelines
+[2021-01-11 23:58:13] [Camera - VisionSourceManager] [DEBUG] Matched config for camera "AcceleratedPicamFrameProvider" and loaded 4 pipelines
+[2021-01-11 23:58:13] [Camera - VisionSourceManager] [INFO] Adding 2 configs to VMM.
+[2021-01-11 23:58:14] [WebServer - DataChangeService] [DEBUG] Added subscriber - Sources: DCS_WEBSOCKET, DCS_HTTP, DCS_NETWORKTABLES, DCS_VISIONMODULE, DCS_OTHER, Destinations: DCD_ACTIVEMODULE, DCD_ACTIVEPIPELINESETTINGS, DCD_GENSETTINGS, DCD_UI, DCD_OTHER
+[2021-01-11 23:58:14] [WebServer - DataChangeService] [DEBUG] Added subscriber - Sources: DCS_WEBSOCKET, DCS_HTTP, DCS_NETWORKTABLES, DCS_VISIONMODULE, DCS_OTHER, Destinations: DCD_UI
+[2021-01-11 23:58:14] [WebServer - DataChangeService] [DEBUG] Added subscriber - Sources: DCS_WEBSOCKET, Destinations: DCD_GENSETTINGS
+[2021-01-11 23:58:14] [General - NetworkTablesManager] [INFO] Searching for rios
+[2021-01-11 23:58:14] [General - NetworkTablesManager] [INFO] Trying 127.0.0.1
+[2021-01-11 23:58:14] [General - NetworkTablesManager] [INFO] Didn't match RIO IP
+[2021-01-11 23:58:14] [General - NetworkTablesManager] [INFO] Trying 10.6.86.43
+[2021-01-11 23:58:14] [General - NetworkTablesManager] [INFO] Maybe found 10.6.86.43
+[2021-01-11 23:58:14] [General - NetworkTablesManager] [INFO] Looking up 10.6.86.2
+[2021-01-11 23:58:14] [General - NetworkTablesManager] [INFO] Pinging 10.6.86.2
+[2021-01-11 23:58:14] [General - NetworkTablesManager] [INFO] Was able to connect to 10.6.86.2
+[2021-01-11 23:58:14] [General - NetworkTablesManager] [INFO] Looking up roboRIO-686-FRC.local
+[2021-01-11 23:58:14] [General - NetworkTablesManager] [INFO] Pinging roboRIO-686-FRC.local
+[2021-01-11 23:58:14] [General - NetworkTablesManager] [INFO] Was able to connect to roboRIO-686-FRC.local
+[2021-01-11 23:58:14] [General - NetworkTablesManager] [INFO] Looking up roboRIO-686-FRC.lan
+[2021-01-11 23:58:14] [General - NetworkTablesManager] [INFO] Looking up roboRIO-686-FRC.frc-field.local
+[2021-01-11 23:58:14] [VisionModule - VisionModule - USB_Camera] [INFO] Setting pipeline to 0
+[2021-01-11 23:58:14] [Camera - USBCameraSource - USB_Camera] [DEBUG] Setting camera exposure to 0
+[2021-01-11 23:58:14] [WebServer - DataChangeService] [DEBUG] Added subscriber - Sources: DCS_WEBSOCKET, DCS_HTTP, DCS_NETWORKTABLES, DCS_VISIONMODULE, DCS_OTHER, Destinations: DCD_ACTIVEMODULE, DCD_ACTIVEPIPELINESETTINGS, DCD_GENSETTINGS, DCD_UI, DCD_OTHER
+[2021-01-11 23:58:14] [General - ConfigManager] [INFO] Settings saved!
+[2021-01-11 23:58:14] [VisionModule - VisionModule - mmal_service_16.1] [INFO] Setting pipeline to -1
+[2021-01-11 23:58:16] [General - ConfigManager] [DEBUG] Saving to disk...
+[2021-01-11 23:58:17] [General - ConfigManager] [INFO] Settings saved!

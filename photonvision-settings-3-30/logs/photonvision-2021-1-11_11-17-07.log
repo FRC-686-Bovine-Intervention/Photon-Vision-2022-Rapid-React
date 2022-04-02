@@ -1,0 +1,137 @@
+[2021-01-11 23:17:08] [General - Main] [INFO] Logging initialized in debug mode.
+[2021-01-11 23:17:08] [General - ShellExec] [DEBUG] Executing "id -u"
+[2021-01-11 23:17:08] [General - ShellExec] [DEBUG] Got exit code 0
+[2021-01-11 23:17:08] [General - ShellExec] [DEBUG] Executing "cat /proc/device-tree/model"
+[2021-01-11 23:17:08] [General - ShellExec] [DEBUG] Got exit code 0
+[2021-01-11 23:17:08] [General - Main] [INFO] Starting PhotonVision version v2022.1.5 on Linux Raspbian (Pi COMPUTE_MODULE_3)
+[2021-01-11 23:17:10] [Camera - PicamJNI] [INFO] Successfully loaded libpicam shared object
+[2021-01-11 23:17:10] [General - Main] [INFO] Native libraries loaded.
+[2021-01-11 23:17:10] [General - ConfigManager] [INFO] Loading settings...
+[2021-01-11 23:17:10] [General - ConfigManager] [INFO] Hardware config does not exist! Loading defaults
+[2021-01-11 23:17:12] [Camera - CameraConfiguration] [DEBUG] Creating camera configuration for UsbCameraUSB_Camera (AKA USB_Camera) at /dev/video0
+[2021-01-11 23:17:12] [Camera - CameraConfiguration] [DEBUG] Creating camera configuration for ZeroCopyPicammmal service 16.1 (AKA mmal_service_16.1) at /dev/video2
+[2021-01-11 23:17:13] [Camera - CameraConfiguration] [DEBUG] Creating camera configuration for UsbCameraHP HD Webcam (AKA HP_HD_Webcam) at \\?\usb#vid_05c8&pid_0369&mi_00#6&342fd1bb&0&0000#{e5323777-f976-4f5b-9b55-b94699c46e44}\global
+[2021-01-11 23:17:13] [General - NetworkManager] [INFO] Setting DHCP with team team 686
+[2021-01-11 23:17:13] [General - ShellExec] [DEBUG] Executing "cat /etc/hostname | tr -d " \t\n\r""
+[2021-01-11 23:17:13] [General - ShellExec] [DEBUG] Got exit code 0
+[2021-01-11 23:17:13] [General - ShellExec] [DEBUG] Executing "echo photonvision > /etc/hostname"
+[2021-01-11 23:17:13] [General - ShellExec] [DEBUG] Got exit code 0
+[2021-01-11 23:17:13] [General - ShellExec] [DEBUG] Executing "hostnamectl set-hostname photonvision"
+[2021-01-11 23:17:13] [General - ShellExec] [DEBUG] Got exit code 0
+[2021-01-11 23:17:13] [General - ShellExec] [DEBUG] Executing "sed -i "s/127.0.1.1.*photonvision/127.0.1.1\tphotonvision/g" /etc/hosts"
+[2021-01-11 23:17:13] [General - ShellExec] [DEBUG] Got exit code 0
+[2021-01-11 23:17:13] [General - ShellExec] [DEBUG] Executing "sudo service avahi-daemon restart"
+[2021-01-11 23:17:14] [General - ShellExec] [DEBUG] Got exit code 0
+[2021-01-11 23:17:14] [General - NetworkManager] [INFO] Set hostname to photonvision
+[2021-01-11 23:17:14] [General - ShellExec] [DEBUG] Executing "dhclient eth0"
+[2021-01-11 23:17:14] [General - ShellExec] [DEBUG] Got exit code 0
+[2021-01-11 23:17:14] [General - NetworkTablesManager] [INFO] Starting NT Client
+[2021-01-11 23:17:14] [General - NetworkTablesManager] [ERROR] [NetworkTablesManager] Could not connect to the robot! Will retry in the background...
+[2021-01-11 23:17:14] [Camera - VisionSourceManager] [DEBUG] Matching 2 new cameras!
+[2021-01-11 23:17:14] [Camera - VisionSourceManager] [INFO] Adding local video device - "USB_Camera" at "/dev/video0"
+[2021-01-11 23:17:14] [Camera - VisionSourceManager] [INFO] Adding local video device - "mmal service 16.1" at "/dev/video2"
+[2021-01-11 23:17:14] [Camera - VisionSourceManager] [DEBUG] Trying to match 2 unmatched configs...
+[2021-01-11 23:17:14] [General - ConfigManager] [DEBUG] Saving to disk...
+[2021-01-11 23:17:14] [Camera - VisionSourceManager] [DEBUG] Trying to find a match for loaded camera HP HD Webcam with path \\?\usb#vid_05c8&pid_0369&mi_00#6&342fd1bb&0&0000#{e5323777-f976-4f5b-9b55-b94699c46e44}\global
+[2021-01-11 23:17:14] [Camera - VisionSourceManager] [DEBUG] Failed to match by path and name, falling back to name-only match
+[2021-01-11 23:17:14] [Camera - VisionSourceManager] [DEBUG] Trying to find a match for loaded camera USB_Camera with path /dev/video0
+[2021-01-11 23:17:14] [Camera - VisionSourceManager] [DEBUG] Matched the config for USB_Camera to a physical camera!
+[2021-01-11 23:17:14] [Camera - VisionSourceManager] [DEBUG] Trying to find a match for loaded camera mmal service 16.1 with path /dev/video2
+[2021-01-11 23:17:14] [Camera - VisionSourceManager] [DEBUG] Matched the config for mmal service 16.1 to a physical camera!
+[2021-01-11 23:17:14] [Camera - VisionSourceManager] [DEBUG] After matching loaded configs 0 cameras were unmatched.
+[2021-01-11 23:17:14] [Camera - VisionSourceManager] [DEBUG] Matched or created 2 camera configs!
+[2021-01-11 23:17:14] [Camera - VisionSourceManager] [WARN] After matching, 1 configs remained unmatched. Is your camera disconnected?
+[2021-01-11 23:17:14] [Camera - VisionSourceManager] [WARN] Unloaded configs: HP_HD_Webcam
+[2021-01-11 23:17:15] [Camera - VisionSourceManager] [DEBUG] Matched config for camera "USBFrameProvider - opencv_USB_Camera" and loaded 1 pipelines
+[2021-01-11 23:17:15] [Camera - VisionSourceManager] [DEBUG] Matched config for camera "AcceleratedPicamFrameProvider" and loaded 4 pipelines
+[2021-01-11 23:17:15] [Camera - VisionSourceManager] [INFO] Adding 2 configs to VMM.
+[2021-01-11 23:17:15] [WebServer - DataChangeService] [DEBUG] Added subscriber - Sources: DCS_WEBSOCKET, DCS_HTTP, DCS_NETWORKTABLES, DCS_VISIONMODULE, DCS_OTHER, Destinations: DCD_ACTIVEMODULE, DCD_ACTIVEPIPELINESETTINGS, DCD_GENSETTINGS, DCD_UI, DCD_OTHER
+[2021-01-11 23:17:15] [General - ConfigManager] [INFO] Settings saved!
+[2021-01-11 23:17:15] [VisionModule - VisionModule - USB_Camera] [INFO] Setting pipeline to 0
+[2021-01-11 23:17:15] [Camera - USBCameraSource - USB_Camera] [DEBUG] Setting camera exposure to 0
+[2021-01-11 23:17:15] [WebServer - DataChangeService] [DEBUG] Added subscriber - Sources: DCS_WEBSOCKET, DCS_HTTP, DCS_NETWORKTABLES, DCS_VISIONMODULE, DCS_OTHER, Destinations: DCD_ACTIVEMODULE, DCD_ACTIVEPIPELINESETTINGS, DCD_GENSETTINGS, DCD_UI, DCD_OTHER
+[2021-01-11 23:17:15] [VisionModule - VisionModule - mmal_service_16.1] [INFO] Setting pipeline to -1
+[2021-01-11 23:17:15] [WebServer - DataChangeService] [DEBUG] Added subscriber - Sources: DCS_WEBSOCKET, DCS_HTTP, DCS_NETWORKTABLES, DCS_VISIONMODULE, DCS_OTHER, Destinations: DCD_UI
+[2021-01-11 23:17:15] [WebServer - DataChangeService] [DEBUG] Added subscriber - Sources: DCS_WEBSOCKET, Destinations: DCD_GENSETTINGS
+[2021-01-11 23:17:16] [VisionModule - VisionRunner - AcceleratedPicamFrameProvider] [ERROR] Exception on loop 0
+[2021-01-11 23:17:17] [General - ConfigManager] [DEBUG] Saving to disk...
+[2021-01-11 23:17:18] [General - ConfigManager] [INFO] Settings saved!
+[2021-01-11 23:17:18] [General - NetworkTablesManager] [ERROR] NT Connection has failed! Will retry in background.
+[2021-01-11 23:17:20] [General - NetworkTablesManager] [INFO] Searching for rios
+[2021-01-11 23:17:20] [General - NetworkTablesManager] [INFO] Trying 127.0.0.1
+[2021-01-11 23:17:20] [General - NetworkTablesManager] [INFO] Didn't match RIO IP
+[2021-01-11 23:17:20] [General - NetworkTablesManager] [INFO] Trying 169.254.129.223
+[2021-01-11 23:17:20] [General - NetworkTablesManager] [INFO] Didn't match RIO IP
+[2021-01-11 23:17:20] [General - NetworkTablesManager] [INFO] Looking up roboRIO-686-FRC.local
+[2021-01-11 23:17:30] [General - NetworkTablesManager] [INFO] Pinging roboRIO-686-FRC.local
+[2021-01-11 23:17:30] [General - NetworkTablesManager] [INFO] Was able to connect to roboRIO-686-FRC.local
+[2021-01-11 23:17:30] [General - NetworkTablesManager] [INFO] Looking up roboRIO-686-FRC.lan
+[2021-01-11 23:17:30] [General - NetworkTablesManager] [INFO] Looking up roboRIO-686-FRC.frc-field.local
+[2021-01-11 23:17:30] [General - NetworkTablesManager] [INFO] NT Connected!
+[2021-01-11 23:17:30] [General - ScriptManager] [INFO] Queued event: kNTConnected
+[2021-01-11 23:17:31] [General - NetworkTablesManager] [INFO] NT Connected!
+[2021-01-11 23:17:31] [General - ScriptManager] [INFO] Queued event: kNTConnected
+[2021-01-11 23:17:32] [General - NetworkTablesManager] [INFO] Searching for rios
+[2021-01-11 23:17:32] [General - NetworkTablesManager] [INFO] Trying 127.0.0.1
+[2021-01-11 23:17:32] [General - NetworkTablesManager] [INFO] Didn't match RIO IP
+[2021-01-11 23:17:32] [General - NetworkTablesManager] [INFO] Trying 169.254.129.223
+[2021-01-11 23:17:32] [General - NetworkTablesManager] [INFO] Didn't match RIO IP
+[2021-01-11 23:17:32] [General - NetworkTablesManager] [INFO] Looking up roboRIO-686-FRC.local
+[2021-01-11 23:17:32] [General - NetworkTablesManager] [INFO] Pinging roboRIO-686-FRC.local
+[2021-01-11 23:17:32] [General - NetworkTablesManager] [INFO] Was able to connect to roboRIO-686-FRC.local
+[2021-01-11 23:17:32] [General - NetworkTablesManager] [INFO] Looking up roboRIO-686-FRC.lan
+[2021-01-11 23:17:32] [General - NetworkTablesManager] [INFO] Looking up roboRIO-686-FRC.frc-field.local
+[2021-01-11 23:17:32] [General - NetworkTablesManager] [INFO] Searching for rios
+[2021-01-11 23:17:32] [General - NetworkTablesManager] [INFO] Trying 127.0.0.1
+[2021-01-11 23:17:32] [General - NetworkTablesManager] [INFO] Didn't match RIO IP
+[2021-01-11 23:17:32] [General - NetworkTablesManager] [INFO] Trying 169.254.129.223
+[2021-01-11 23:17:32] [General - NetworkTablesManager] [INFO] Didn't match RIO IP
+[2021-01-11 23:17:32] [General - NetworkTablesManager] [INFO] Looking up roboRIO-686-FRC.local
+[2021-01-11 23:17:32] [General - NetworkTablesManager] [INFO] Pinging roboRIO-686-FRC.local
+[2021-01-11 23:17:32] [General - NetworkTablesManager] [INFO] Was able to connect to roboRIO-686-FRC.local
+[2021-01-11 23:17:32] [General - NetworkTablesManager] [INFO] Looking up roboRIO-686-FRC.lan
+[2021-01-11 23:17:32] [General - NetworkTablesManager] [INFO] Looking up roboRIO-686-FRC.frc-field.local
+[2021-01-11 23:17:44] [WebServer - Server] [DEBUG] Handled HTTP GET request from 10.6.86.99 in 17.954584ms
+[2021-01-11 23:17:44] [WebServer - Server] [DEBUG] Handled HTTP GET request from 10.6.86.99 in 28.620155ms
+[2021-01-11 23:17:44] [WebServer - Server] [DEBUG] Handled HTTP GET request from 10.6.86.99 in 22.760988ms
+[2021-01-11 23:17:44] [WebServer - Server] [DEBUG] Handled HTTP GET request from 10.6.86.99 in 56.36224ms
+[2021-01-11 23:17:45] [WebServer - Server] [DEBUG] Handled HTTP GET request from 10.6.86.99 in 231.68375ms
+[2021-01-11 23:17:45] [WebServer - Server] [DEBUG] Handled HTTP GET request from 10.6.86.99 in 13.571041ms
+[2021-01-11 23:17:45] [WebServer - Server] [DEBUG] Handled HTTP GET request from 10.6.86.99 in 5.518906ms
+[2021-01-11 23:17:45] [WebServer - Server] [DEBUG] Handled HTTP GET request from 10.6.86.99 in 5.081563ms
+[2021-01-11 23:17:45] [WebServer - Server] [DEBUG] Handled HTTP GET request from 10.6.86.99 in 5.434114ms
+[2021-01-11 23:17:45] [WebServer - Server] [DEBUG] Handled HTTP GET request from 10.6.86.99 in 5.077552ms
+[2021-01-11 23:17:45] [WebServer - Server] [DEBUG] Handled HTTP GET request from 10.6.86.99 in 10.250573ms
+[2021-01-11 23:17:45] [WebServer - SocketHandler] [INFO] New websocket connection from /10.6.86.99:61595
+[2021-01-11 23:17:46] [WebServer - Server] [DEBUG] Handled HTTP GET request from 10.6.86.99 in 6.148541ms
+[2021-01-11 23:17:46] [WebServer - Server] [DEBUG] Handled HTTP GET request from 10.6.86.99 in 12.778854ms
+[2021-01-11 23:17:46] [WebServer - Server] [DEBUG] Handled HTTP GET request from 10.6.86.99 in 366.8929ms
+[2021-01-11 23:17:46] [General - NetworkTablesManager] [INFO] Searching for rios
+[2021-01-11 23:17:46] [General - NetworkTablesManager] [INFO] Trying 127.0.0.1
+[2021-01-11 23:17:46] [General - NetworkTablesManager] [INFO] Didn't match RIO IP
+[2021-01-11 23:17:46] [General - NetworkTablesManager] [INFO] Trying 169.254.129.223
+[2021-01-11 23:17:46] [General - NetworkTablesManager] [INFO] Didn't match RIO IP
+[2021-01-11 23:17:46] [General - NetworkTablesManager] [INFO] Trying 10.6.86.43
+[2021-01-11 23:17:46] [General - NetworkTablesManager] [INFO] Maybe found 10.6.86.43
+[2021-01-11 23:17:46] [General - NetworkTablesManager] [INFO] Looking up 10.6.86.2
+[2021-01-11 23:17:46] [General - NetworkTablesManager] [INFO] Pinging 10.6.86.2
+[2021-01-11 23:17:46] [General - NetworkTablesManager] [INFO] Was able to connect to 10.6.86.2
+[2021-01-11 23:17:46] [General - NetworkTablesManager] [INFO] Looking up roboRIO-686-FRC.local
+[2021-01-11 23:17:46] [General - NetworkTablesManager] [INFO] Pinging roboRIO-686-FRC.local
+[2021-01-11 23:17:47] [WebServer - Server] [DEBUG] Handled HTTP GET request from 10.6.86.99 in 46.44052ms
+[2021-01-11 23:17:47] [WebServer - Server] [DEBUG] Handled HTTP GET request from 10.6.86.99 in 17.060053ms
+[2021-01-11 23:17:47] [General - NetworkTablesManager] [INFO] Unable to reach roboRIO-686-FRC.local
+[2021-01-11 23:17:47] [General - NetworkTablesManager] [INFO] Looking up roboRIO-686-FRC.lan
+[2021-01-11 23:17:47] [General - NetworkTablesManager] [INFO] Looking up roboRIO-686-FRC.frc-field.local
+[2021-01-11 23:17:53] [VisionModule - VisionModule - mmal_service_16.1] [INFO] Setting pipeline to 0
+[2021-01-11 23:17:55] [General - ConfigManager] [DEBUG] Saving to disk...
+[2021-01-11 23:17:56] [General - ConfigManager] [INFO] Settings saved!
+[2021-01-11 23:18:02] [General - ConfigManager] [DEBUG] Saving to disk...
+[2021-01-11 23:18:03] [General - ConfigManager] [INFO] Settings saved!
+[2021-01-11 23:18:09] [VisionModule - VisionModule - mmal_service_16.1] [INFO] Setting pipeline to 1
+[2021-01-11 23:18:11] [General - ConfigManager] [DEBUG] Saving to disk...
+[2021-01-11 23:18:12] [General - ConfigManager] [INFO] Settings saved!
+[2021-01-11 23:18:16] [VisionModule - VisionModule - mmal_service_16.1] [INFO] Setting pipeline to 3
+[2021-01-11 23:18:18] [General - ConfigManager] [DEBUG] Saving to disk...
+[2021-01-11 23:18:18] [General - ConfigManager] [INFO] Settings saved!
+[2021-01-11 23:18:23] [VisionModule - VisionModule - mmal_service_16.1] [INFO] Setting pipeline to 1

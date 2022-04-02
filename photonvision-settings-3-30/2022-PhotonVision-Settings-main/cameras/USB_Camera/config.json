@@ -1,0 +1,14 @@
+{
+  "baseName" : "USB_Camera",
+  "uniqueName" : "USB_Camera",
+  "nickname" : "USB_Camera",
+  "FOV" : 70.0,
+  "path" : "/dev/video0",
+  "cameraType" : "UsbCamera",
+  "currentPipelineIndex" : 0,
+  "camPitch" : {
+    "radians" : 0.0
+  },
+  "calibrations" : [ ],
+  "streamIndex" : 1
+}
